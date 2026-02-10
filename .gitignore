@@ -1,0 +1,23 @@
+# Ignorar a pasta do python descompactada (gerada pelo setup)
+usr/python/
+usr/Scripts/
+usr/Lib/
+
+# Manter os BATs (para quem for instalar)
+!usr/*.bat
+
+# Ignorar cache e compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar logs e bancos de dados locais (se houver SQLite)
+*.log
+*.db
+*.db3
+*.sqlite3
+
+# Ignorar configurações locais de IDE (VSCode/Cursor)
+.vscode/
+.idea/
