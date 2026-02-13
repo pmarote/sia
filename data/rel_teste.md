@@ -1,0 +1,22 @@
+<details>
+  <summary><span style="font-size:0.9em; color:gray; cursor:pointer">🔍 Ver Query SQL Original</span></summary>
+
+```sql
+SELECT * FROM madf LIMIT 10;
+```
+</details>
+
+| g1 | g2 | classe | cfopi | descri_simplif | dfi | aaaamm | valconGia | valconEfd | valconDif | icmsGia | icmsEfd | icmsDif | icmsstGia | icmsstEfd | icmsstDif |
+| :--- | :--- | :--- | ---: | :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202001 | <span style="color:red">-237.688,00</span> | <span style="color:red">-237.688,00</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202004 | <span style="color:red">-34.986,00</span> | <span style="color:red">-34.986,00</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202005 | <span style="color:red">-15.256,54</span> | <span style="color:red">-15.256,54</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202006 | <span style="color:red">-76.008,67</span> | <span style="color:red">-76.008,67</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202007 | <span style="color:red">-33.699,43</span> | <span style="color:red">-33.699,43</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202008 | <span style="color:red">-33.256,67</span> | <span style="color:red">-33.256,67</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202010 | <span style="color:red">-55.261,94</span> | <span style="color:red">-55.261,94</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202011 | <span style="color:red">-14.802,90</span> | <span style="color:red">-14.802,90</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 1201 | Devolução de Venda Produção | D | 202012 | <span style="color:red">-3.777,84</span> | <span style="color:red">-3.777,84</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| 1-Receitas | 01n - Produção Não ST | E201 | 2201 | Devolução de Venda Produção | F | 202001 | <span style="color:red">-31.593,12</span> | <span style="color:red">-31.593,12</span> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+> 📅 **Gerado em:** 10/02/2026 20:07 &nbsp;|&nbsp; 🗄️ **Base:** `./teste.db3` &nbsp;|&nbsp; 🗄🗄️ **Attachments:** `[]` &nbsp;|&nbsp; 📊 **Linhas:** 10
+

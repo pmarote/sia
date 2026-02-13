@@ -1,0 +1,6 @@
+{
+  "db": "./teste.db3",
+  "out": "./rel_teste.xlsx",
+  "format": "excel",
+  "sql": "SELECT * FROM madf;"
+}

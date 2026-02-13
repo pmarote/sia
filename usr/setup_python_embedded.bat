@@ -74,6 +74,12 @@ echo ==========================================
 echo      MICROAPP CONFIGURADO COM SUCESSO!
 echo ==========================================
 echo.
+echo Proximos passos:
+echo pip install uv
+echo uv init
+echo uv pip install openpyxl --python "C:\srcP\sia\usr\python\python.exe"
+echo.
+
 echo Para testar, execute o arquivo terminal.bat que esta na pasta principal (nao esta nesta pasta usr)
 echo.
 pause

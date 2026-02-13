@@ -1,7 +1,8 @@
-# Ignorar a pasta do python descompactada (gerada pelo setup)
+# Ignorar a pasta do python descompactada (gerada pelo setup) e os dados em var
 usr/python/
 usr/Scripts/
 usr/Lib/
+var/
 
 # Manter os BATs (para quem for instalar)
 !usr/*.bat

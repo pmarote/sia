@@ -1,0 +1,16 @@
+{
+  "db": "C:/srcP/py/data/principal.db",
+  "out": "C:/srcP/py/var/relatorio_vendas.xlsx",
+  "format": "excel",
+  "sql": "SELECT v.data, p.nome FROM vendas v JOIN produtos.lista p ON v.id_prod = p.id",
+  "attach": [
+    {
+      "path": "C:/srcP/py/data/produtos.db",
+      "alias": "produtos"
+    },
+    {
+      "path": "C:/srcP/py/data/historico.db",
+      "alias": "hist"
+    }
+  ]
+}

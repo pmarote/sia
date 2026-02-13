@@ -1,0 +1,725 @@
+g1	g2	classe	cfopi	descri_simplif	dfi	aaaamm	valconGia	valconEfd	valconDif	icmsGia	icmsEfd	icmsDif	icmsstGia	icmsstEfd	icmsstDif
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202001	-237688,0	-237688,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202004	-34986,0	-34986,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202005	-15256,54	-15256,54	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202006	-76008,67	-76008,67	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202007	-33699,43	-33699,43	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202008	-33256,67	-33256,67	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202010	-55261,94	-55261,94	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202011	-14802,9	-14802,9	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	1201	Devolução de Venda Produção	D	202012	-3777,84	-3777,84	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202001	-31593,12	-31593,12	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202003	-68138,46	-68138,46	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202004	-16356,25	-16356,25	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202005	-30761,52	-30761,52	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202006	-69097,47	-69097,47	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202007	-99340,74	-99340,74	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202009	-8432,1	-8432,1	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202011	-6998,0	-6998,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	E201	2201	Devolução de Venda Produção	F	202012	-31448,52	-31448,52	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202001	3404524,28	3404524,28	0,0	15539,28	15539,28	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202002	5782058,3	5782058,3	0,0	7885,95	7885,95	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202003	3927562,46	3927562,46	0,0	12435,63	12435,63	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202004	734202,65	734202,65	0,0	1426,18	1426,18	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202005	541998,2	541998,2	0,0	4062,72	4062,72	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202006	1610728,11	1610728,11	0,0	4566,65	4566,65	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202007	2676702,02	2676702,02	0,0	10872,74	10872,74	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202008	4209041,28	4209041,28	0,0	7389,22	7389,22	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202009	4493773,51	4493773,51	0,0	9088,02	9088,02	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202010	6386099,1	6386099,1	0,0	16871,19	16871,19	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202011	6111550,36	6111550,36	0,0	12275,18	12275,18	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	5101	Venda Produção	D	202012	4755910,33	4755910,33	0,0	10489,05	10489,05	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202001	3050742,94	3050742,94	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202002	3994414,38	3994414,38	0,0	1152,9	1152,9	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202003	4662311,58	4662311,58	0,0	1779,13	1779,13	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202004	1161350,31	1161350,31	0,0	1693,26	1693,26	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202005	389464,71	389464,71	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202006	986931,09	986931,09	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202007	2385909,66	2385909,66	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202008	3488193,28	3488193,28	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202009	4492769,7	4492769,7	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202010	4770019,47	4770019,47	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202011	5253905,19	5253905,19	0,0	1399,97	1399,97	0,0	0,0	0,0	0,0
+1-Receitas	01n - Produção Não ST	S101	6101	Venda Produção	F	202012	5039899,27	5039899,27	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202001	1323762,21	1323762,21	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202002	1597856,65	1597856,65	0,0	270,0	270,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202003	1558936,59	1558936,59	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202004	313897,37	313897,37	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202005	416861,63	416861,63	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202006	1002420,05	1002420,05	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202007	1796501,64	1796501,64	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202008	1505349,41	1505349,41	0,0	54,0	54,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202009	2558598,1	2558598,1	0,0	817,93	817,93	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202010	2561914,02	2561914,02	0,0	108,0	108,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202011	1921951,14	1921951,14	0,0	324,0	324,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S107	6107	Venda Produção p/ Não Contribuinte	F	202012	1797568,67	1797568,67	0,0	123,81	123,81	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202001	237,56	237,56	0,0	42,76	42,76	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202002	725,55	725,55	0,0	68,42	68,42	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202003	10675,86	10675,86	0,0	164,07	164,07	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202004	13970,45	13970,45	0,0	2514,66	2514,66	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202005	54862,96	54862,96	0,0	9050,11	9050,11	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202006	10787,81	10787,81	0,0	1100,95	1100,95	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202007	8645,05	8645,05	0,0	1556,1	1556,1	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202008	11500,21	11500,21	0,0	2070,03	2070,03	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202009	25128,87	25128,87	0,0	945,01	945,01	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202010	88561,96	88561,96	0,0	6757,62	6757,62	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202011	353951,11	353951,11	0,0	42721,67	42721,67	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	5910	Remessa em bonificação, doação ou brinde	D	202012	152574,31	152574,31	0,0	20854,28	20854,28	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202001	845,8	845,8	0,0	101,49	101,49	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202004	7074,65	7074,65	0,0	283,0	283,0	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202005	32482,84	32482,84	0,0	1299,31	1299,31	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202006	67458,49	67458,49	0,0	3904,83	3904,83	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202007	40472,23	40472,23	0,0	2263,59	2263,59	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202008	271516,75	271516,75	0,0	4217,88	4217,88	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202009	135475,42	135475,42	0,0	8940,1	8940,1	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202010	22245,34	22245,34	0,0	1118,6	1118,6	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202011	101118,68	101118,68	0,0	6743,06	6743,06	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S910	6910	Remessa em bonificação, doação ou brinde	F	202012	480547,02	480547,02	0,0	15566,27	15566,27	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202004	829,4	829,4	0,0	149,29	149,29	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202005	9052,0	9052,0	0,0	1619,34	1619,34	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202006	10404,64	10404,64	0,0	1804,77	1804,77	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202007	27864,38	27864,38	0,0	3795,48	3795,48	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202008	7807,71	7807,71	0,0	47,36	47,36	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202009	4202,3	4202,3	0,0	423,33	423,33	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202010	53987,9	53987,9	0,0	8382,08	8382,08	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202011	66130,57	66130,57	0,0	5980,56	5980,56	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	5911	Remessa de amostra grátis	D	202012	13047,0	13047,0	0,0	561,69	561,69	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202004	986,08	986,08	0,0	39,44	39,44	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202005	16866,83	16866,83	0,0	989,92	989,92	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202006	26071,37	26071,37	0,0	979,18	979,18	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202007	23581,38	23581,38	0,0	1731,15	1731,15	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202008	16702,77	16702,77	0,0	614,36	614,36	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202009	11078,43	11078,43	0,0	950,75	950,75	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202010	51664,11	51664,11	0,0	2064,12	2064,12	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202011	68822,69	68822,69	0,0	3267,73	3267,73	0,0	0,0	0,0	0,0
+1-Receitas	01z - Produção - Outros	S911	6911	Remessa de amostra grátis	F	202012	25196,5	25196,5	0,0	617,95	617,95	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202001	-963585,27	-963585,27	0,0	-92245,22	-92245,22	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202002	-555130,72	-555130,72	0,0	-65204,54	-65204,54	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202003	-1019033,13	-1019033,13	0,0	-125522,56	-125522,56	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202004	-862005,11	-862005,11	0,0	-120500,06	-120500,06	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202005	-226911,39	-226911,39	0,0	-34129,36	-34129,36	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202006	-246107,44	-246107,44	0,0	-33133,11	-33133,11	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202007	-489079,75	-489079,75	0,0	-39155,88	-39155,88	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202008	-353855,76	-353855,76	0,0	-53967,96	-53967,96	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202009	-365863,97	-365863,97	0,0	-53301,38	-53301,38	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202010	-883219,21	-883219,21	0,0	-110175,57	-110175,57	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202011	-610630,98	-610630,98	0,0	-95705,19	-95705,19	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	1202	Devolução de Venda Merc Adq de Terceiros	D	202012	-404859,67	-404859,67	0,0	-56766,85	-56766,85	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202001	-749618,48	-749618,48	0,0	-40065,72	-40065,72	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202002	-475707,86	-475707,86	0,0	-19439,18	-19439,18	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202003	-1342709,94	-1342709,94	0,0	-53147,23	-53147,23	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202004	-753574,73	-753574,73	0,0	-31866,11	-31866,11	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202005	-322414,03	-322414,03	0,0	-10029,51	-10029,51	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202006	-1478007,72	-1478007,72	0,0	-58799,24	-58799,24	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202007	-569521,63	-569521,63	0,0	-35300,11	-35300,11	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202008	-280467,36	-280467,36	0,0	-18899,15	-18899,15	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202009	-467684,18	-467684,18	0,0	-22223,41	-22223,41	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202010	-557096,98	-557096,98	0,0	-26215,39	-26215,39	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202011	-827796,14	-827796,14	0,0	-28857,87	-28857,87	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	2202	Devolução de Venda Merc Adq de Terceiros	F	202012	-796085,09	-796085,09	0,0	-44250,45	-44250,45	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	3202	Devolução de Venda Merc Adq de Terceiros	I	202001	-593676,57	-593676,57	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	3202	Devolução de Venda Merc Adq de Terceiros	I	202003	-81952,1	-81952,1	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	E202	3202	Devolução de Venda Merc Adq de Terceiros	I	202009	-83764,13	-83764,13	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202001	34974976,05	34974976,05	0,0	3190709,33	3190709,33	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202002	32303878,27	32303878,27	0,0	3133386,02	3133386,02	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202003	37448668,34	37448668,34	0,0	3949518,26	3949518,26	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202004	12028618,06	12028618,06	0,0	1280043,58	1280043,58	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202005	10982908,21	10982908,21	0,0	1016946,55	1016946,55	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202006	18349357,77	18349357,77	0,0	1719887,94	1719887,94	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202007	29214361,73	29214361,73	0,0	2880945,91	2880945,91	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202008	33158277,84	33158277,84	0,0	3175807,1	3175807,1	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202009	34429037,06	34429037,06	0,0	3437669,37	3437669,37	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202010	42464777,74	42464777,74	0,0	4351832,28	4351832,28	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202011	58496122,47	58496122,47	0,0	7044721,18	7044721,18	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	5102	Venda Merc Adq de Terceiros	D	202012	41993066,16	41993066,16	0,0	4723291,55	4723291,55	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202001	21439538,26	21439538,26	0,0	588643,63	588643,63	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202002	15558698,5	15558698,5	0,0	549625,46	549625,46	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202003	15576195,19	15576195,19	0,0	554334,22	554334,22	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202004	5788976,75	5788976,75	0,0	232248,23	232248,23	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202005	5433750,91	5433750,91	0,0	147390,31	147390,31	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202006	8126329,92	8126329,92	0,0	251265,71	251265,71	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202007	10089699,77	10089699,77	0,0	309735,38	309735,38	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202008	14436275,19	14436275,19	0,0	437871,72	437871,72	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202009	20553998,49	20553998,49	0,0	598405,42	598405,42	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202010	20073510,3	20073510,3	0,0	663768,94	663768,94	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202011	24994893,37	24994893,37	0,0	741973,49	741973,49	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	6102	Venda Merc Adq de Terceiros	F	202012	15168208,52	15168208,52	0,0	612565,49	612565,49	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202001	7634850,6	7634850,6	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202002	22742117,21	22742117,21	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202003	47386084,4	47386084,4	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202004	33175534,08	33175534,08	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202005	24365367,66	24365367,66	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202006	24562466,22	24562466,22	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202007	22640410,82	22640410,82	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202008	22605903,29	22605903,29	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202009	23887753,49	23887753,49	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202010	34251801,47	34251801,47	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202011	33746308,32	33746308,32	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02n - Comércio Não ST	S102	7102	Venda Merc Adq de Terceiros	I	202012	32070687,01	32070687,01	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	E411	1411	Devolução de Venda Merc Adq de Terceiros ST	D	202003	-3370,71	-3370,71	0,0	-550,96	-550,96	0,0	-309,81	-309,81	0,0
+1-Receitas	02s - Comércio ST	E411	1411	Devolução de Venda Merc Adq de Terceiros ST	D	202004	-99014,12	-99014,12	0,0	-16184,45	-16184,45	0,0	-9100,52	-9100,52	0,0
+1-Receitas	02s - Comércio ST	E411	1411	Devolução de Venda Merc Adq de Terceiros ST	D	202006	-1671,2	-1671,2	0,0	-273,17	-273,17	0,0	-153,6	-153,6	0,0
+1-Receitas	02s - Comércio ST	E411	1411	Devolução de Venda Merc Adq de Terceiros ST	D	202007	-7711,36	-7711,36	0,0	-1260,47	-1260,47	0,0	-708,76	-708,76	0,0
+1-Receitas	02s - Comércio ST	E411	1411	Devolução de Venda Merc Adq de Terceiros ST	D	202008	-25037,97	-25037,97	0,0	-4092,6	-4092,6	0,0	-2301,27	-2301,27	0,0
+1-Receitas	02s - Comércio ST	E411	1411	Devolução de Venda Merc Adq de Terceiros ST	D	202011	-316975,72	-316975,72	0,0	-51778,96	-51778,96	0,0	-29314,86	-29314,86	0,0
+1-Receitas	02s - Comércio ST	E411	2411	Devolução de Venda Merc Adq de Terceiros ST	F	202007	-69277,8	-69277,8	0,0	-2202,91	-2202,91	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202001	654806,87	654806,87	0,0	106516,53	106516,53	0,0	63048,4	63048,4	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202002	643242,37	643242,37	0,0	104861,72	104861,72	0,0	60677,31	60677,31	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202003	1008515,76	1008515,76	0,0	164546,55	164546,55	0,0	94368,44	94368,44	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202004	118261,87	118261,87	0,0	19321,31	19321,31	0,0	10921,33	10921,33	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202005	617794,61	617794,61	0,0	100853,43	100853,43	0,0	57497,8	57497,8	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202006	432836,15	432836,15	0,0	70630,82	70630,82	0,0	40442,6	40442,6	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202007	742638,64	742638,64	0,0	120856,0	120856,0	0,0	71216,4	71216,4	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202008	827967,12	827967,12	0,0	134885,11	134885,11	0,0	78605,32	78605,32	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202009	985637,47	985637,47	0,0	160583,15	160583,15	0,0	93508,99	93508,99	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202010	1259465,39	1259465,39	0,0	204709,61	204709,61	0,0	122189,87	122189,87	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202011	3428262,61	3428262,61	0,0	559708,4	559708,4	0,0	318771,77	318771,77	0,0
+1-Receitas	02s - Comércio ST	S403	5403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	D	202012	1808598,27	1808598,27	0,0	294918,74	294918,74	0,0	170160,81	170160,81	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202001	206568,38	206568,38	0,0	6443,51	6443,51	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202002	62852,73	62852,73	0,0	1956,38	1956,38	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202003	85394,01	85394,01	0,0	2652,13	2652,13	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202004	71855,51	71855,51	0,0	2211,95	2211,95	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202006	69277,8	69277,8	0,0	2202,91	2202,91	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202007	186192,3	186192,3	0,0	5770,73	5770,73	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202008	253984,53	253984,53	0,0	7918,23	7918,23	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202009	95287,96	95287,96	0,0	2982,36	2982,36	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202010	229735,83	229735,83	0,0	7128,67	7128,67	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202011	343984,71	343984,71	0,0	10699,7	10699,7	0,0	0,0	0,0	0,0
+1-Receitas	02s - Comércio ST	S403	6403	Venda Merc Adq de Terceiros ST, condição de Contrib. Substituto	F	202012	221235,51	221235,51	0,0	6844,21	6844,21	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	E204	2204	Devol.Venda Merc Adq de Terceiros p/Z.Franca	F	202009	-1796,43	-1796,43	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S104	5104	Venda Merc Adq de Terceiros efetuada Fora do Estabelecimento	D	202004	2244,58	2244,58	0,0	404,02	404,02	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S104	6104	Venda Merc Adq de Terceiros efetuada Fora do Estabelecimento	F	202002	10154,34	10154,34	0,0	406,17	406,17	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202001	15736725,62	15736725,62	0,0	843331,5	843331,5	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202002	18353635,79	18353635,79	0,0	963120,46	963120,46	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202003	21937999,31	21937999,31	0,0	1220141,81	1220141,81	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202004	9729337,48	9729337,48	0,0	484464,21	484464,21	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202005	7430597,38	7430597,38	0,0	426063,79	426063,79	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202006	10808122,86	10808122,86	0,0	602030,33	602030,33	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202007	14471559,63	14471559,63	0,0	757457,55	757457,55	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202008	16461151,53	16461151,53	0,0	877517,49	877517,49	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202009	17657761,51	17657761,51	0,0	933608,97	933608,97	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202010	22022029,84	22022029,84	0,0	1169211,29	1169211,29	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202011	23056431,07	23056431,07	0,0	1268729,62	1268729,62	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S108	6108	Venda Merc Adq de Terceiros destin a Não Contribuinte	F	202012	18526353,57	18526353,57	0,0	978273,31	978273,31	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202001	400175,37	400175,37	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202002	760371,06	760371,06	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202003	313944,87	313944,87	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202004	237253,92	237253,92	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202005	297858,58	297858,58	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202006	61398,02	61398,02	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202007	419546,35	419546,35	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202008	116374,32	116374,32	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202009	109397,66	109397,66	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202010	38232,62	38232,62	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202011	180599,02	180599,02	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S110	6110	Venda Merc Adq de Terceiros p/Z.Franca	F	202012	93723,94	93723,94	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	02z - Comércio - Outros	S114	5114	Venda Merc Adq de Terceiros Remetida Anteriormente em Consig Mercantil	D	202002	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202001	845132,29	845132,29	0,0	198,65	198,65	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202002	675707,24	675707,24	0,0	128,74	128,74	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202003	975487,41	975487,41	0,0	34,96	34,96	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202004	145763,87	145763,87	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202005	465257,74	465257,74	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202006	751119,3	751119,3	0,0	23,88	23,88	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202007	1217898,14	1217898,14	0,0	71,63	71,63	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202008	1072108,09	1072108,09	0,0	106,59	106,59	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202009	1035671,71	1035671,71	0,0	93,79	93,79	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202010	1657641,03	1657641,03	0,0	342,66	342,66	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202011	1490733,02	1490733,02	0,0	893,56	893,56	0,0	0,0	0,0	0,0
+1-Receitas	11n - Transf.Produção Não ST	S151	6151	Transf.Produção	F	202012	1091618,81	1091618,81	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202001	162751,07	162751,07	0,0	29295,16	29295,16	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202002	154337,83	154337,83	0,0	25260,98	25260,98	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202003	116637,35	116637,35	0,0	20994,72	20994,72	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202004	91385,91	91385,91	0,0	3175,23	3175,23	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202005	111168,26	111168,26	0,0	20010,3	20010,3	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202006	551838,88	551838,88	0,0	99330,99	99330,99	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202007	43729,11	43729,11	0,0	7871,26	7871,26	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202008	47757,02	47757,02	0,0	8596,33	8596,33	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202009	40318,41	40318,41	0,0	7257,31	7257,31	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202010	26524,69	26524,69	0,0	4774,43	4774,43	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202011	93630,93	93630,93	0,0	16853,57	16853,57	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	5152	Transf.Merc Adq de Terceiros	D	202012	171359,88	171359,88	0,0	30844,77	30844,77	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202001	1333884,95	1333884,95	0,0	33728,19	33728,19	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202002	1191672,25	1191672,25	0,0	24029,45	24029,45	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202003	1300748,49	1300748,49	0,0	29332,45	29332,45	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202004	602051,79	602051,79	0,0	7288,8	7288,8	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202005	504577,61	504577,61	0,0	10841,63	10841,63	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202006	551248,51	551248,51	0,0	9817,02	9817,02	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202007	718041,33	718041,33	0,0	12370,14	12370,14	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202008	1102535,59	1102535,59	0,0	20897,23	20897,23	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202009	1347569,49	1347569,49	0,0	27978,46	27978,46	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202010	1554643,94	1554643,94	0,0	34144,34	34144,34	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202011	1383384,69	1383384,69	0,0	32749,75	32749,75	0,0	0,0	0,0	0,0
+1-Receitas	12n - Transf.Comércio Não ST	S152	6152	Transf.Merc Adq de Terceiros	F	202012	1014185,54	1014185,54	0,0	22890,5	22890,5	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	1102	Compra para comercialização	D	202004	-8775,45	-8775,45	0,0	-1579,58	-1579,58	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	1102	Compra para comercialização	D	202007	-52164,48	-52164,48	0,0	-9205,5	-9205,5	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	1102	Compra para comercialização	D	202009	-21294,44	-21294,44	0,0	-3832,99	-3832,99	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	1102	Compra para comercialização	D	202010	-10098,88	-10098,88	0,0	-1817,79	-1817,79	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	1102	Compra para comercialização	D	202011	-82832,13	-82832,13	0,0	-14651,28	-14651,28	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	1102	Compra para comercialização	D	202012	-89754,28	-89754,28	0,0	-16155,77	-16155,77	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202001	-297353,92	-297353,92	0,0	-31028,2	-31028,2	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202002	-479142,39	-479142,39	0,0	-54167,8	-54167,8	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202003	-989521,21	-989521,21	0,0	-102271,32	-102271,32	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202004	-1017688,45	-1017688,45	0,0	-104001,15	-104001,15	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202005	-141487,33	-141487,33	0,0	-13323,92	-13323,92	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202006	-1206542,26	-1206542,26	0,0	-125900,0	-125900,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202007	-1409999,74	-1409999,74	0,0	-147130,31	-147130,31	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202009	-130694,31	-130694,31	0,0	-13637,64	-13637,64	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202010	-2150230,45	-2150230,45	0,0	-224371,69	-224371,69	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202011	-237471,58	-237471,58	0,0	-24779,63	-24779,63	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	2102	Compra para comercialização	F	202012	-18522,8	-18522,8	0,0	-1932,81	-1932,81	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202001	-36571389,25	-36571389,25	0,0	-2920879,55	-2920879,55	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202002	-24189645,57	-24189645,56	-0,01	-2068751,68	-2068751,68	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202003	-60243926,43	-60243926,43	0,0	-5753334,01	-5753334,01	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202004	-34759020,22	-34759020,22	0,0	-3439531,13	-3439531,13	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202005	-11308452,68	-11308452,68	0,0	-705478,37	-705478,37	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202006	-12400695,34	-12400695,16	-0,18	-831697,82	-831697,82	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202007	-15226202,43	-15226202,43	0,0	-1452668,09	-1452668,09	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202008	-12358841,84	-12358841,84	0,0	-1284600,3	-1284600,3	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202009	-32046165,23	-32046165,23	0,0	-2991982,75	-2991982,75	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202010	-38215145,87	-38215145,87	0,0	-3385115,91	-3385115,91	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202011	-47369905,34	-47369905,34	0,0	-4830092,65	-4830092,65	0,0	0,0	0,0	0,0
+2-Compras Insumos	02n - Comércio Não ST	E102	3102	Compra para comercialização	I	202012	-44233299,42	-44233299,42	0,0	-3562965,02	-3562965,02	0,0	0,0	0,0	0,0
+2-Compras Insumos	02s - Comércio ST	E403	1403	Compra para comercialização ST	D	202002	-15163,78	-15163,78	0,0	-1754,49	-1754,49	0,0	0,0	0,0	0,0
+2-Compras Insumos	02s - Comércio ST	E403	1403	Compra para comercialização ST	D	202004	-1007,44	-1007,44	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	02s - Comércio ST	E403	1403	Compra para comercialização ST	D	202006	-15093,6	-15093,6	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	02s - Comércio ST	E403	1403	Compra para comercialização ST	D	202010	-1105,17	-1105,17	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	02s - Comércio ST	E403	1403	Compra para comercialização ST	D	202012	-1134,72	-1134,72	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	02z - Comércio - Outros	E911	1911	Entrada de amostra grátis	D	202004	-1242,36	-1242,36	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	02z - Comércio - Outros	E911	1911	Entrada de amostra grátis	D	202005	-299,88	-299,88	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	02z - Comércio - Outros	E911	1911	Entrada de amostra grátis	D	202011	-1032,24	-1032,24	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	02z - Comércio - Outros	E911	1911	Entrada de amostra grátis	D	202012	-1050,81	-1050,81	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202001	-352841,97	-352841,97	0,0	-21936,76	-21936,76	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202002	-325534,28	-325534,28	0,0	-28870,52	-28870,52	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202003	-147024,87	-147024,87	0,0	-12622,44	-12622,44	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202004	-1163829,24	-1163829,24	0,0	-77216,97	-77216,97	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202005	-593101,03	-593101,03	0,0	-39491,43	-39491,43	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202006	-477412,15	-477412,15	0,0	-32302,66	-32302,66	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202007	-907159,64	-907159,64	0,0	-56896,11	-56896,11	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202008	-1183205,58	-1183205,58	0,0	-99573,19	-99573,19	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202009	-1133931,07	-1133931,07	0,0	-88726,83	-88726,83	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202010	-1164313,57	-1164313,57	0,0	-85298,93	-85298,93	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202011	-798897,13	-798897,13	0,0	-63642,74	-63642,74	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	1353	Aquis.Serv.Transporte p/Estab.Comercial	D	202012	-570259,98	-570259,98	0,0	-47603,09	-47603,09	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202001	-514,53	-514,53	0,0	-47,43	-47,43	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202002	-1497,86	-1497,86	0,0	-149,23	-149,23	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202003	-2615,43	-2615,43	0,0	-156,66	-156,66	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202005	-198,93	-198,93	0,0	-14,39	-14,39	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202006	-3342,76	-3342,76	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202007	-9252,32	-9252,32	0,0	-90,84	-90,84	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202008	-1158,29	-1158,29	0,0	-90,7	-90,7	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202009	-17448,3	-17448,3	0,0	-664,06	-664,06	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202010	-1847,05	-1847,05	0,0	-142,56	-142,56	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202011	-2605,36	-2605,36	0,0	-265,6	-265,6	0,0	0,0	0,0	0,0
+2-Compras Insumos	08 - Serv.Transporte	E353	2353	Aquis.Serv.Transporte p/Estab.Comercial	F	202012	-512,08	-512,08	0,0	-13,72	-13,72	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	1151	Transf. Para Produção	D	202010	-275,84	-275,84	0,0	-49,65	-49,65	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202001	-2844,5	-2844,5	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202002	-19157,49	-19157,49	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202004	-61413,64	-61413,64	0,0	-53,24	-53,24	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202005	-15678,55	-15678,55	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202006	-28309,13	-28309,13	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202007	-115866,52	-115866,52	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202008	-141671,64	-141671,64	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202009	-70917,44	-70917,44	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202010	-82883,39	-82883,39	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202011	-15380,3	-15380,3	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	11n - Transf.Produção Não ST	E151	2151	Transf. Para Produção	F	202012	-41791,43	-41791,43	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202001	-35984433,47	-35984433,47	0,0	-6437360,11	-6437360,11	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202002	-30168103,09	-30168103,09	0,0	-5391776,25	-5391776,25	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202003	-32430378,67	-32430378,67	0,0	-5757652,45	-5757652,45	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202004	-33736502,09	-33736502,09	0,0	-5969947,33	-5969947,33	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202005	-25826572,79	-25826572,79	0,0	-4629451,7	-4629451,7	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202006	-29634253,96	-29634253,96	0,0	-5231076,92	-5231076,92	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202007	-35287449,46	-35287449,46	0,0	-6335115,8	-6335115,8	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202008	-29109630,81	-29109630,81	0,0	-5182529,05	-5182529,05	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202009	-29260797,27	-29260797,27	0,0	-5245162,89	-5245162,89	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202010	-31595334,41	-31595334,41	0,0	-5624141,5	-5624141,5	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202011	-23689673,23	-23689673,23	0,0	-4237365,87	-4237365,87	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	1152	Transf. Para Comércio	D	202012	-20898499,86	-20898499,86	0,0	-3201998,47	-3201998,47	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202001	-30185,46	-30185,46	0,0	-788,62	-788,62	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202002	-236557,77	-236557,77	0,0	-2269,76	-2269,76	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202003	-2483,37	-2483,37	0,0	-122,69	-122,69	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202004	-75124,3	-75124,3	0,0	-953,98	-953,98	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202005	-30573,53	-30573,53	0,0	-31,55	-31,55	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202006	-37449,52	-37449,52	0,0	-209,5	-209,5	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202007	-232993,91	-232993,91	0,0	-1254,38	-1254,38	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202008	-55302,43	-55302,43	0,0	-153,15	-153,15	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202009	-168923,47	-168923,47	0,0	-1235,08	-1235,08	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202010	-54023,49	-54023,49	0,0	-777,74	-777,74	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202011	-223846,01	-223846,01	0,0	-1284,37	-1284,37	0,0	0,0	0,0	0,0
+2-Compras Insumos	12n - Transf.Comércio Não ST	E152	2152	Transf. Para Comércio	F	202012	-158652,97	-158652,97	0,0	-1438,02	-1438,02	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202001	-143979,18	-143979,18	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202002	-252914,64	-252914,64	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202003	-358135,67	-358135,67	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202004	-282349,31	-282349,31	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202005	-191519,1	-191519,1	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202006	-74211,99	-74211,99	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202007	-125517,75	-125517,75	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202008	-187846,67	-187846,67	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202009	-167272,87	-167272,87	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202010	-119883,51	-119883,51	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202011	-380382,92	-380382,92	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	1556	Compra Uso e Consumo	D	202012	-345913,22	-345913,22	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	2556	Compra Uso e Consumo	F	202005	-8148,0	-8148,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	3556	Compra Uso e Consumo	I	202001	-20470,84	-20470,84	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	3556	Compra Uso e Consumo	I	202003	-30686,91	-30686,91	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	3556	Compra Uso e Consumo	I	202004	-58768,54	-58768,54	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	3556	Compra Uso e Consumo	I	202005	-332723,05	-332723,05	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	3556	Compra Uso e Consumo	I	202007	-1520525,07	-1520525,07	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03n - Uso e Consumo Não ST	E556	3556	Compra Uso e Consumo	I	202009	-20023,28	-20023,28	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202001	-9620,25	-9620,25	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202002	-13574,52	-13574,52	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202003	-638,55	-638,55	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202004	-1995,01	-1995,01	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202005	-12626,67	-12626,67	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202006	-6944,74	-6944,74	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202007	-1437,25	-1437,25	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202008	-1386,56	-1386,56	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202009	-3766,15	-3766,15	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202010	-7942,7	-7942,7	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202011	-3999,44	-3999,44	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	03s - Uso e Consumo ST	E407	1407	Compra Uso e Consumo ST	D	202012	-4293,65	-4293,65	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	08 - Serv.Transporte	S206	5206	Anulação de valor relativo a aquisição de serviço de transporte	D	202010	511818,34	511818,34	0,0	60204,33	60204,33	0,0	0,0	0,0	0,0
+3-Compras Consumo	08 - Serv.Transporte	S206	6206	Anulação de valor relativo a aquisição de serviço de transporte	F	202010	466,27	466,27	0,0	55,95	55,95	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	E557	1557	Transf. De Material Para Uso ou Consumo	D	202003	-6600,0	-6600,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	5557	Transf. De Material de Uso ou Consumo	D	202001	1500,0	1500,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	5557	Transf. De Material de Uso ou Consumo	D	202004	1287,75	1287,75	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	5557	Transf. De Material de Uso ou Consumo	D	202005	4194,0	4194,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	5557	Transf. De Material de Uso ou Consumo	D	202007	5477,28	5477,28	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	5557	Transf. De Material de Uso ou Consumo	D	202008	91288,0	91288,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	5557	Transf. De Material de Uso ou Consumo	D	202009	18937,5	18937,5	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	5557	Transf. De Material de Uso ou Consumo	D	202011	15880,0	15880,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202001	2250,0	2250,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202002	1500,0	1500,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202003	425,0	425,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202004	3105,75	3105,75	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202005	32620,0	32620,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202006	28755,72	28755,72	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202007	27973,97	27973,97	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202008	625,0	625,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202010	560,0	560,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+3-Compras Consumo	13z - Uso e Consumo - Outros	S557	6557	Transf. De Material de Uso ou Consumo	F	202011	15000,0	15000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	1551	Compra de bem para o ativo imobilizado	D	202001	-58131,04	-58131,04	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	1551	Compra de bem para o ativo imobilizado	D	202002	-182843,37	-182843,37	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	1551	Compra de bem para o ativo imobilizado	D	202003	-97963,52	-97963,52	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	1551	Compra de bem para o ativo imobilizado	D	202005	-95295,0	-95295,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	1551	Compra de bem para o ativo imobilizado	D	202008	-70000,0	-70000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	1551	Compra de bem para o ativo imobilizado	D	202010	-884962,2	-884962,2	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	1551	Compra de bem para o ativo imobilizado	D	202012	-3122583,8	-3122583,8	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	2551	Compra de bem para o ativo imobilizado	F	202007	-187200,0	-187200,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	3551	Compra de bem para o ativo imobilizado	I	202001	-134686,95	-134686,95	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	3551	Compra de bem para o ativo imobilizado	I	202002	-22366,34	-22366,34	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	3551	Compra de bem para o ativo imobilizado	I	202005	-345397,62	-345397,62	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	3551	Compra de bem para o ativo imobilizado	I	202006	-2012934,1	-2012934,11	0,01	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	3551	Compra de bem para o ativo imobilizado	I	202008	-80315,04	-80315,04	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	3551	Compra de bem para o ativo imobilizado	I	202009	-994527,61	-994527,61	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	3551	Compra de bem para o ativo imobilizado	I	202011	-4370,51	-4370,51	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04n - Ativo Imobilizado Não ST	E551	3551	Compra de bem para o ativo imobilizado	I	202012	-88888,68	-88888,68	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04s - Ativo Imobilizado ST	E406	1406	Compra de bem para o ativo imobilizado ST	D	202007	-100305,32	-100305,32	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202002	0,0	-201058,62	201058,62	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202003	-127950,0	-127950,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202004	-631800,0	-631800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202005	-30000,0	-30000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202006	-291880,05	-291880,05	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202007	-41000,0	-41000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202009	-121800,0	-121800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202010	-20000,0	-20000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	1554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202011	-10000,0	-10000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	2554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	F	202003	-103600,0	-103600,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	2554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	F	202004	-37950,0	-37950,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	2554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	F	202006	-318000,0	-318000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	2554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	F	202007	-20000,0	-20000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	2554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	F	202008	-31800,0	-31800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	2554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	F	202009	-31800,0	-31800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E554	2554	Retorno de Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	F	202012	-51800,0	-51800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E555	1555	Entrada de bem do ativo imobilizado de terceiro, remetido para uso no estabelecimento	D	202002	-201058,62	0,0	-201058,62	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E555	1555	Entrada de bem do ativo imobilizado de terceiro, remetido para uso no estabelecimento	D	202007	-99000,0	-99000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E555	2555	Entrada de bem do ativo imobilizado de terceiro, remetido para uso no estabelecimento	F	202007	-31800,0	-31800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202001	0,0	0,0	0,0	-1128,33	-1128,33	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202002	0,0	0,0	0,0	-1279,96	-1279,96	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202003	0,0	0,0	0,0	-1520,26	-1520,26	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202004	0,0	0,0	0,0	-1738,42	-1738,42	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202005	0,0	0,0	0,0	-1625,83	-1625,83	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202006	0,0	0,0	0,0	-1341,25	-1341,25	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202007	0,0	0,0	0,0	-1337,2	-1337,2	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202008	0,0	0,0	0,0	-1308,32	-1308,32	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202009	0,0	0,0	0,0	-1268,13	-1268,13	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202010	0,0	0,0	0,0	-1399,82	-1399,82	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202011	0,0	0,0	0,0	-1464,57	-1464,57	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E604	1604	Lançamento do crédito relativo à compra de bem para o ativo imobilizado	D	202012	0,0	0,0	0,0	-1431,0	-1431,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E908	1908	Entrada de bem por conta de contrato de comodato	D	202002	-6800,0	-6800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E908	1908	Entrada de bem por conta de contrato de comodato	D	202003	-2800,0	-2800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E908	1908	Entrada de bem por conta de contrato de comodato	D	202009	-2800,0	-2800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E908	2908	Entrada de bem por conta de contrato de comodato	F	202001	-40000,0	-40000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	1909	Retorno de bem remetido por conta de contrato de comodato	D	202001	-197434,94	-197434,94	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	1909	Retorno de bem remetido por conta de contrato de comodato	D	202002	-35033,35	-35033,35	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	1909	Retorno de bem remetido por conta de contrato de comodato	D	202003	-310500,0	-310500,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	1909	Retorno de bem remetido por conta de contrato de comodato	D	202006	-738164,46	-738164,46	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	1909	Retorno de bem remetido por conta de contrato de comodato	D	202008	-50550,13	-50550,13	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	1909	Retorno de bem remetido por conta de contrato de comodato	D	202009	-359488,6	-359488,6	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	1909	Retorno de bem remetido por conta de contrato de comodato	D	202010	-12642,24	-12642,24	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202001	-92924,56	-92924,56	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202003	-40000,0	-40000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202005	-64757,1	-64757,1	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202006	-574639,59	-574639,59	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202007	-490828,17	-490828,17	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202008	-903502,76	-903502,76	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202009	-264000,0	-264000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202010	-130545,67	-130545,67	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202011	-149500,0	-149500,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	E909	2909	Retorno de bem remetido por conta de contrato de comodato	F	202012	-681666,83	-681666,83	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S551	5551	Venda de bem do ativo imobilizado	D	202006	200,0	200,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S551	5551	Venda de bem do ativo imobilizado	D	202008	5343,31	5343,31	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S551	5551	Venda de bem do ativo imobilizado	D	202010	2,0	2,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S551	5551	Venda de bem do ativo imobilizado	D	202012	5347940,3	5347940,3	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S551	6551	Venda de bem do ativo imobilizado	F	202012	15333,0	15333,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202002	155000,0	155000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202003	94370,51	94370,51	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202004	1034464,22	1034464,22	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202005	20000,0	20000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202006	409627,02	409627,02	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202007	131100,0	131100,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202008	110622,46	110622,46	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202009	149978,98	149978,98	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202010	20000,0	20000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202011	320331,7	320331,7	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S554	5554	Remessa de bem do At.Imobilizado p/Uso Fora do Estab.	D	202012	159144,98	159144,98	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202001	158968,97	158968,97	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202002	329757,77	329757,77	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202003	1589841,75	1589841,75	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202004	404638,92	404638,92	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202005	408314,42	408314,42	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202006	1090454,34	1090454,34	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202007	1071038,92	1071038,92	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202008	537936,35	537936,35	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202009	770967,29	770967,29	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202010	348213,14	348213,14	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202011	509131,78	509131,78	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	5908	Remessa de bem por conta de contrato de comodato	D	202012	207819,19	207819,19	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202001	58000,0	58000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202002	642289,96	642289,96	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202003	336130,24	336130,24	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202004	875621,83	875621,83	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202005	198377,77	198377,77	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202006	1683284,17	1683284,17	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202007	496323,91	496323,91	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202008	835922,88	835922,88	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202009	1461606,05	1461606,05	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202010	345487,28	345487,28	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202011	2180854,3	2180854,3	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S908	6908	Remessa de bem por conta de contrato de comodato	F	202012	220357,68	220357,68	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S909	5909	Retorno de bem recebido por conta de contrato de comodato	D	202003	2800,0	2800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S909	5909	Retorno de bem recebido por conta de contrato de comodato	D	202010	2800,0	2800,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	04z - Ativo Imobilizado - Outros	S909	6909	Retorno de bem recebido por conta de contrato de comodato	F	202001	20000,0	20000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202001	-356445,64	-356445,64	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202002	-1158261,79	-1158261,79	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202003	-509432,18	-509432,18	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202004	-553265,56	-553265,56	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202006	-686225,14	-686225,14	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202007	-496941,43	-496941,43	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202008	-1015775,3	-1015775,3	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202009	-237563,4	-237563,4	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202010	-693135,58	-693135,58	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202011	-56006,92	-56006,92	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	1552	Transferência de bem do ativo imobilizado - Entrada	D	202012	-8618233,09	-8618233,09	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	2552	Transferência de bem do ativo imobilizado - Entrada	F	202001	-142499,3	-142499,3	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	2552	Transferência de bem do ativo imobilizado - Entrada	F	202002	-261788,29	-261788,29	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	2552	Transferência de bem do ativo imobilizado - Entrada	F	202003	-82836,15	-82836,15	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	2552	Transferência de bem do ativo imobilizado - Entrada	F	202005	-61725,53	-61725,53	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	2552	Transferência de bem do ativo imobilizado - Entrada	F	202008	-84794,79	-84794,79	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	E552	2552	Transferência de bem do ativo imobilizado - Entrada	F	202012	-44393,23	-44393,23	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202001	110654,45	110654,45	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202002	53114,46	53114,46	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202003	415600,93	415600,93	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202004	24130,92	24130,92	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202005	126540,12	126540,12	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202006	87226,18	87226,18	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202007	167754,17	167754,17	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202008	295855,21	295855,21	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202009	503435,44	503435,44	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202010	234613,21	234613,21	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202011	200681,59	200681,59	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	5552	Transferência de bem do ativo imobilizado - Saída	D	202012	108791,15	108791,15	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202001	98301,93	98301,93	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202002	44867,66	44867,66	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202003	75923,15	75923,15	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202004	79685,76	79685,76	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202005	99506,56	99506,56	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202006	64902,8	64902,8	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202007	28023,91	28023,91	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202008	50158,31	50158,31	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202009	38627,92	38627,92	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+4-Ativo	14 - Transf.Ativo Imobilizado	S552	6552	Transferência de bem do ativo imobilizado - Saída	F	202010	817,75	817,75	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202001	-163768,59	-163768,59	0,0	-23724,61	-23724,61	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202004	-2329570,54	-2329570,54	0,0	-335401,98	-335401,98	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202005	-174814,63	-174814,63	0,0	-28761,2	-28761,2	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202006	-521065,51	-521065,51	0,0	-83914,97	-83914,97	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202007	-177568,23	-177568,23	0,0	-25943,77	-25943,77	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202008	-293531,41	-293531,41	0,0	-41218,68	-41218,68	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202009	-340075,34	-340075,34	0,0	-57305,41	-57305,41	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202010	-803420,6	-803420,6	0,0	-132290,09	-132290,09	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	E904	1904	Retorno de remessa para venda fora do estabelecimento	D	202011	-1733982,71	-1733982,71	0,0	-289273,49	-289273,49	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202001	613472,07	613472,07	0,0	107450,34	107450,34	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202002	174693,55	174693,55	0,0	27907,79	27907,79	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202003	39345,07	39345,07	0,0	6025,9	6025,9	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202004	280305,23	280305,23	0,0	48932,45	48932,45	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202005	232815,88	232815,88	0,0	38305,74	38305,74	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202006	492125,45	492125,45	0,0	78251,46	78251,46	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202007	201510,79	201510,79	0,0	29320,43	29320,43	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202008	448811,61	448811,61	0,0	66040,93	66040,93	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202009	339303,35	339303,35	0,0	57276,7	57276,7	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202010	386404,61	386404,61	0,0	65454,18	65454,18	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01n - Produção Não ST	S904	5904	Remessa para venda fora do estabelecimento	D	202011	91593,79	91593,79	0,0	15219,81	15219,81	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E912	1912	Entrada de mercadoria ou bem recebido para demonstração	D	202006	-8900,09	-8900,09	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E912	1912	Entrada de mercadoria ou bem recebido para demonstração	D	202008	-6000,0	-6000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E913	1913	Retorno de mercadoria ou bem remetido para demonstração	D	202012	-6514,0	-6514,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E913	2913	Retorno de mercadoria ou bem remetido para demonstração	F	202004	-470000,0	-470000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E913	2913	Retorno de mercadoria ou bem remetido para demonstração	F	202012	-11718,44	-11718,44	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202001	-463635,18	-463635,18	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202002	-712829,13	-712829,13	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202003	-1008232,99	-1008232,99	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202004	-485006,83	-485006,83	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202005	-600209,28	-600209,28	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202006	-827736,27	-827736,27	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202007	-987517,65	-987517,65	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202008	-710908,45	-710908,45	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202009	-596273,51	-596273,51	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202010	-737298,58	-737298,58	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202011	-407188,36	-407188,36	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	1915	Entrada de mercadoria ou bem recebido para conserto ou reparo	D	202012	-767053,43	-767053,43	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202001	-573048,66	-573048,66	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202002	-270000,0	-270000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202003	-285656,68	-285656,68	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202004	-258664,78	-258664,78	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202005	-221310,66	-221310,66	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202006	-165500,3	-165500,3	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202007	-372909,42	-372909,42	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202008	-199345,96	-199345,96	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202009	-90209,33	-90209,33	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202010	-419796,79	-419796,79	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202011	-91000,0	-91000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E915	2915	Entrada de mercadoria ou bem recebido para conserto ou reparo	F	202012	-115555,05	-115555,05	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E916	1916	Retorno de mercadoria ou bem remetido para conserto ou reparo	D	202001	-121400,0	-121400,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E916	1916	Retorno de mercadoria ou bem remetido para conserto ou reparo	D	202003	-190092,27	-190092,27	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E916	1916	Retorno de mercadoria ou bem remetido para conserto ou reparo	D	202007	-6050,0	-6050,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E916	1916	Retorno de mercadoria ou bem remetido para conserto ou reparo	D	202008	-196370,0	-196370,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	E916	1916	Retorno de mercadoria ou bem remetido para conserto ou reparo	D	202009	-484221,57	-484221,57	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	5912	Remessa de mercadoria ou bem para demonstração	D	202002	3954,02	3954,02	0,0	1226,1	1226,1	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	5912	Remessa de mercadoria ou bem para demonstração	D	202006	6219,82	6219,82	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	5912	Remessa de mercadoria ou bem para demonstração	D	202009	1520,27	1520,27	0,0	1119,57	1119,57	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	5912	Remessa de mercadoria ou bem para demonstração	D	202010	16374,88	16374,88	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	5912	Remessa de mercadoria ou bem para demonstração	D	202011	14145,74	14145,74	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	5912	Remessa de mercadoria ou bem para demonstração	D	202012	69843,09	69843,09	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	6912	Remessa de mercadoria ou bem para demonstração	F	202006	1532,33	1532,33	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	6912	Remessa de mercadoria ou bem para demonstração	F	202007	6129,32	6129,32	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	6912	Remessa de mercadoria ou bem para demonstração	F	202008	1520,27	1520,27	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	6912	Remessa de mercadoria ou bem para demonstração	F	202009	3118,42	3118,42	0,0	61,29	61,29	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	6912	Remessa de mercadoria ou bem para demonstração	F	202010	13027,99	13027,99	0,0	183,87	183,87	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	6912	Remessa de mercadoria ou bem para demonstração	F	202011	73140,45	73140,45	0,0	61,29	61,29	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S912	6912	Remessa de mercadoria ou bem para demonstração	F	202012	69914,69	69914,69	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S913	5913	Retorno de mercadoria ou bem recebido para demonstração	D	202010	6000,0	6000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202001	9000,0	9000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202002	2700,0	2700,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202003	238520,0	238520,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202004	115700,0	115700,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202005	27550,0	27550,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202006	141568,78	141568,78	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202007	607522,79	607522,79	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202008	360627,74	360627,74	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202009	324840,93	324840,93	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202010	184128,4	184128,4	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202011	312843,26	312843,26	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	5915	Remessa de mercadoria ou bem para conserto ou reparo	D	202012	17000,0	17000,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S915	6915	Remessa de mercadoria ou bem para conserto ou reparo	F	202004	15450,0	15450,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202001	237973,62	237973,62	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202002	780054,46	780054,46	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202003	910989,53	910989,53	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202004	711136,8	711136,8	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202005	619581,93	619581,93	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202006	878170,85	878170,85	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202007	963534,32	963534,32	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202008	622826,41	622826,41	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202009	879081,86	879081,86	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202010	425123,83	425123,83	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202011	558581,43	558581,43	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	5916	Retorno de mercadoria ou bem recebido para conserto ou reparo	D	202012	246097,28	246097,28	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202001	395426,64	395426,64	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202002	441357,0	441357,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202003	256743,03	256743,03	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202004	235600,2	235600,2	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202005	437419,75	437419,75	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202006	278056,66	278056,66	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202007	224511,46	224511,46	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202008	309505,96	309505,96	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202009	147300,0	147300,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202010	235211,34	235211,34	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202011	580294,93	580294,93	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S916	6916	Retorno de mercadoria ou bem recebido para conserto ou reparo	F	202012	137528,91	137528,91	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+5-Entradas/Saídas	01z - Produção - Outros	S920	6920	Remessa de vasilhame ou sacaria	F	202012	75787,2	75787,2	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202001	-6078976,37	-6078976,37	0,0	-303870,98	-303870,98	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202002	-4712504,54	-4712504,54	0,0	-248231,9	-248231,9	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202003	-5681594,8	-5681594,8	0,0	-313963,39	-313963,39	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202004	-2262376,67	-2262376,67	0,0	-99391,78	-99391,78	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202005	-2238948,52	-2238948,52	0,0	-119814,56	-119814,56	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202006	-3429050,94	-3429050,94	0,0	-195203,47	-195203,47	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202007	-6080385,95	-6080385,95	0,0	-355033,86	-355033,86	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202008	-4904831,3	-4904831,3	0,0	-270990,96	-270990,96	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202009	-4542838,9	-4542838,9	0,0	-243340,03	-243340,03	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202010	-5265298,49	-5265298,49	0,0	-283676,01	-283676,01	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202011	-5564942,13	-5564942,13	0,0	-311002,81	-311002,81	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	1949	Outras Entradas (E.949)	D	202012	-5950446,99	-5950446,99	0,0	-296968,15	-296968,15	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202001	-3491741,06	-3491741,06	0,0	-38778,19	-38778,19	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202002	-2850979,12	-2850979,12	0,0	-28312,2	-28312,2	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202003	-3537648,22	-3537648,22	0,0	-36708,02	-36708,02	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202004	-1530979,86	-1530979,86	0,0	-17356,06	-17356,06	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202005	-923127,96	-923127,96	0,0	-10028,75	-10028,75	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202006	-1667229,88	-1667230,05	0,17	-18610,52	-18610,52	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202007	-3052307,1	-3052307,1	0,0	-32229,38	-32229,38	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202008	-3047348,73	-3047348,73	0,0	-36639,64	-36639,64	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202009	-3353013,31	-3353013,31	0,0	-35997,24	-35997,24	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202010	-2707820,0	-2707820,0	0,0	-30110,91	-30110,91	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202011	-2934074,48	-2934074,48	0,0	-38822,31	-38822,31	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	2949	Outras Entradas (E.949)	F	202012	-2346294,28	-2346294,28	0,0	-33588,85	-33588,85	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	3949	Outras Entradas (E.949)	I	202005	-1286631,74	-1286631,74	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	3949	Outras Entradas (E.949)	I	202007	-75627,19	-75627,19	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	3949	Outras Entradas (E.949)	I	202010	-2377088,96	-2377088,96	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - E949 - Outros	E949	3949	Outras Entradas (E.949)	I	202012	-12568808,68	-12568808,68	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202001	8962168,71	8962168,71	0,0	379725,33	379725,33	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202002	10118709,11	10118709,11	0,0	296680,6	296680,6	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202003	5661567,13	5661567,13	0,0	322791,32	322791,32	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202004	1712516,43	1712516,43	0,0	114879,41	114879,41	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202005	2250070,83	2250070,83	0,0	127563,42	127563,42	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202006	9750085,86	9750085,86	0,0	210523,48	210523,48	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202007	5464068,83	5464068,83	0,0	324074,31	324074,31	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202008	4515147,45	4515147,45	0,0	253101,29	253101,29	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202009	8572468,25	8572468,25	0,0	280239,63	280239,63	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202010	5704091,4	5704091,4	0,0	346934,78	346934,78	0,0	1017,08	1017,08	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202011	6060509,67	6060509,67	0,0	347465,7	347465,7	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	5949	Outras Saídas (S.949)	D	202012	5959010,95	5959010,95	0,0	311105,08	311105,08	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202001	4035970,48	4035970,48	0,0	59921,93	59921,93	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202002	2893412,27	2893412,27	0,0	41051,68	41051,68	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202003	3738428,29	3738428,29	0,0	45684,39	45684,39	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202004	967933,01	967933,01	0,0	17463,04	17463,04	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202005	575852,91	575852,91	0,0	12473,07	12473,07	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202006	2196097,51	2196097,51	0,0	28967,96	28967,96	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202007	3833874,56	3833874,56	0,0	39497,58	39497,58	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202008	4298767,14	4298767,14	0,0	52739,1	52739,1	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202009	4397925,73	4397925,73	0,0	76709,1	76709,1	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202010	4034946,88	4034946,88	0,0	59854,63	59854,63	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202011	3144171,63	3144171,63	0,0	48417,34	48417,34	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	6949	Outras Saídas (S.949)	F	202012	2765031,17	2765031,17	0,0	36875,1	36875,1	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	7949	Outras Saídas (S.949)	I	202003	325481,89	325481,89	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	7949	Outras Saídas (S.949)	I	202004	2787,17	2787,17	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	7949	Outras Saídas (S.949)	I	202006	150146,54	150146,54	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	7949	Outras Saídas (S.949)	I	202009	869953,8	869953,8	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	02z - S949 - Outros	S949	7949	Outras Saídas (S.949)	I	202011	105196,11	105196,11	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202001	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202002	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202003	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202004	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202005	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202006	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202007	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202009	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202010	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202011	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0
+6-Outros	94 - Outros - Baixa de Estoque	S927	5927	Baixa de Estoque - Perda, Roubo ou Deterioração	D	202012	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0

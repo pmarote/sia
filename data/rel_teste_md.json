@@ -1,0 +1,6 @@
+{
+  "db": "./teste.db3",
+  "out": "./rel_teste.md",
+  "format": "markdown",
+  "sql": "SELECT * FROM madf LIMIT 10;"
+}
