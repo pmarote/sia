@@ -18,7 +18,3 @@ __pycache__/
 *.db
 *.db3
 *.sqlite3
-
-# Ignorar configurações locais de IDE (VSCode/Cursor)
-.vscode/
-.idea/

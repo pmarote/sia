@@ -2,7 +2,10 @@
 
 O formato é livre, focado em registrar decisões de arquitetura e evolução do projeto SIA, e é baseado em [Keep a Changelog](https://keepachangelog.com/en/2.0.0/) e [Semantic Versioning](https://semver.org/spec/v2.0.0.html), sem tantas rígidas restrições.
 
-## [0.3.7] - 2026-02-13 (Atual)
+## [0.3.8] - (Atual)
+- Revisão geral, foi "lambido" um montão de arquivos
+
+## [0.3.7] - 2026-02-13
 - Configuração do gerenciador de pacotes `uv` para orquestrar dependências.
 - Criação do `SKILL.md` (`python-embedded`) para ensinar o Agente a usar o ambiente `usr/python` corretamente e não criar venvs isolados.
 - Configurações de `launch.json` e `settings.json` para injeção nativa de variáveis de ambiente no terminal do VS Code.

@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    // --- 1. Onde está o Python? ---
+    "python.defaultInterpreterPath": "${workspaceFolder}\\usr\\python\\python.exe",
+    // Não tentar ativar venv (pois é um python embedded, não um venv)
+    "python.terminal.activateEnvironment": false,
+    // --- 2. Injeção de Variáveis de Ambiente (Terminal) ---
+    // Isso aplica as configurações do antigo init_env.bat em QUALQUER terminal aberto aqui
+    "terminal.integrated.env.windows": {
+        "PYTHONHOME": "${workspaceFolder}\\usr\\python",
+        "PYTHONUTF8": "1",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        // Aqui nós injetamos o python embedded no início do PATH
+        // ${env:PATH} pega o PATH atual do sistema e anexa no fim
+        "PATH": "${workspaceFolder}\\usr\\python;${workspaceFolder}\\usr\\python\\Scripts;${env:PATH}"
+    },
+    // --- 3. IntelliSense ---
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true
+}

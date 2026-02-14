@@ -23,10 +23,5 @@ set "PYTHONDONTWRITEBYTECODE=1"
 REM Adiciona Python ao PATH da sessão atual
 set "PATH=%PYTHONHOME%;%PYTHONHOME%\Scripts;%PATH%"
 
-REM --- Atalhos do Sistema (Aliases) ---
-doskey test=python -m utils.info
-doskey clean=rmdir /s /q __pycache__ 2^>nul
-doskey sia=python -m app.main $*
-
 REM Feedback silencioso de sucesso (opcional, útil para debug)
 REM echo Environment loaded from %USR_DIR%

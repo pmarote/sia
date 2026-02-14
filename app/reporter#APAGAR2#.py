@@ -6,12 +6,34 @@ Entrada: Argumentos via CLI e Configuração persistente via TOML.
 import sys
 import argparse
 import sqlite3
+import tomllib
 from pathlib import Path
 
-# --- CORE E INFRAESTRUTURA --- # considerando sys.path[] esteja certinho incluindo a pasta app, como por ex. `C:\srcP\sia\app`
-from core import env  # O ambiente já entra validado aqui!
+# Imports nativos e limpos, considerando sys.path[] esteja certinho incluindo a pasta app, como por ex. `C:\srcP\sia\app`
 import to_excel
 import to_markdown
+# ----------------------------------------
+
+# Define a raiz do projeto (um nível acima da pasta 'app') para localizar a pasta /var
+project_root = Path(__file__).resolve().parents[1]
+
+# Garante UTF-8 no console
+sys.stdout.reconfigure(encoding='utf-8')
+
+def load_db_config():
+    """Lê o arquivo de configuração persistente db_config.toml da pasta var/"""
+    toml_path = project_root / "var" / "db_config.toml"
+    
+    if not toml_path.exists():
+        print(f"[ERRO CRÍTICO] Arquivo de configuração não encontrado: {toml_path}")
+        sys.exit(1)
+        
+    try:
+        with open(toml_path, 'rb') as f:
+            return tomllib.load(f)
+    except Exception as e:
+        print(f"[ERRO] Falha ao ler TOML ({toml_path}): {e}")
+        sys.exit(1)
 
 def get_connection(db_path, attachments=None):
     """Conecta no SQLite e realiza os ATTACHs solicitados."""
@@ -25,7 +47,7 @@ def get_connection(db_path, attachments=None):
                 if path and alias:
                     # Cuidado: Parametrização não funciona em ATTACH, 
                     # mas como é uso interno/controlado, f-string é aceitável.
-                    clean_path = str((env.project_root / path).resolve())
+                    clean_path = str(Path(path).resolve())
                     conn.execute(f"ATTACH DATABASE '{clean_path}' AS {alias}")
                     print(f"[INFO] Attached: {alias} -> {clean_path}")
         
@@ -60,8 +82,7 @@ def main():
 
     # 2. Resolução do SQL (Arquivo ou String)
     if args.sql.lower().endswith('.sql'):
-        # Procura o arquivo SQL usando a raiz do projeto como base
-        sql_file = env.project_root / args.sql
+        sql_file = Path(args.sql)
         if not sql_file.exists():
             print(f"[ERRO CRÍTICO] Arquivo SQL não encontrado: {sql_file}")
             sys.exit(1)
@@ -76,49 +97,45 @@ def main():
         sql_query = args.sql
         print("[REPORTER] 💬 SQL recebido via string de comando.")
 
-    # 3. Consumo da Configuração Persistente (Via Core)
-    db_path_rel = env.db_config.get("db")
-    attachments = env.db_config.get("attach", [])
+    # 3. Carregamento da Configuração Persistente (TOML)
+    config = load_db_config()
+    db_path = config.get("db")
+    attachments = config.get("attach", [])
 
-    if not db_path_rel:
+    if not db_path:
         print("[ERRO CRÍTICO] O arquivo db_config.toml deve conter a chave 'db'.")
         sys.exit(1)
 
-    # Resolve o caminho do banco principal a partir da raiz do projeto
-    db_path_abs = str((env.project_root / db_path_rel).resolve())
-
     # 4. Execução
-    print(f"[REPORTER] 🔌 Conectando em: {db_path_abs}")
-    conn = get_connection(db_path_abs, attachments)
+    print(f"[REPORTER] 🔌 Conectando em: {db_path}")
+    conn = get_connection(db_path, attachments)
     
     try:
         cursor = conn.cursor()
         print("[REPORTER] 🚀 Executando Query...")
         cursor.execute(sql_query)
         
-        # Resolve o caminho de saída a partir da raiz do projeto
-        out_path_abs = env.project_root / out_path
-        print(f"[REPORTER] 💾 Salvando como {fmt.upper()}: {out_path_abs}")
+        print(f"[REPORTER] 💾 Salvando como {fmt.upper()}: {out_path}")
         
         # 5. Roteamento para Exportadores
         if fmt == "excel":
             # Passamos o cursor diretamente. O exportador vai iterar.
-            to_excel.export_excel(cursor, str(out_path_abs))
+            to_excel.export_excel(cursor, str(out_path))
             
         elif fmt == "markdown":
             # Markdown precisa saber a query original para botar no <details>
             to_markdown.export_markdown(
                 cursor, 
-                str(out_path_abs), 
+                str(out_path), 
                 sql_query=sql_query, 
-                db_path=db_path_abs, 
-                attachments=str(attachments),
+                db_path=db_path, 
+                attachments=attachments,
                 title=args.title
             )
             
         elif fmt == "tsv":
             # TSV com tratamento de decimais BR
-            with open(out_path_abs, "w", encoding="utf-8") as f:
+            with open(out_path, "w", encoding="utf-8") as f:
                 # Headers
                 if cursor.description:
                     cols = [d[0] for d in cursor.description]

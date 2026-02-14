@@ -1,0 +1,17 @@
+# var/db_config.toml
+# Configuração persistente de conexão com os bancos de dados - Ver explicacao no arquivo modelo em res/db_config.toml
+
+# Banco principal (main)    ##ATENÇÃO - Não coloque barra invertida, coloque no path barra estilo linux##
+db = "data/entrada/principal.sqlite"
+
+# Bancos auxiliares para ATTACH (opcional)    ##ATENÇÃO - Não coloque barra invertida, coloque no path barra estilo linux##
+[[attach]]
+path = "data/entrada/extra_data.sqlite"
+alias = "extra"
+
+[[attach]]
+path = "data/entrada/auxiliar.sqlite"
+alias = "aux"
+
+# Retire este comentário na produção. Este arquivo é apenas um modelo, uma explicação, de como funciona
+# Reiterando que ele deve estar na pasta var, com o nome de db_config.toml

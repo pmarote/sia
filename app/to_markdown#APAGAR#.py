@@ -22,7 +22,7 @@ def fmt_br(val):
         return text_val
     return str(val)
 
-def export_markdown(cursor, out_path, sql_query="", db_path="", attachments="", title=""):
+def export_markdown(cursor, out_path, sql_query="", db_path="", attachments=""):
     """
     Gera Markdown streamando o cursor.
     Nota: O arquivo .md bruto não terá colunas alinhadas visualmente (espaços),
@@ -37,10 +37,6 @@ def export_markdown(cursor, out_path, sql_query="", db_path="", attachments="", 
     first_row = cursor.fetchone()
     
     with open(out_path, "w", encoding="utf-8") as f:
-
-        # --- NOVA LÓGICA DO TÍTULO ---
-        if title:
-            f.write(f"## {title}\n\n")
 
         if sql_query:
             f.write("<details>\n")
@@ -102,7 +98,6 @@ def main():
     parser.add_argument("--db", required=True)
     parser.add_argument("--sql", required=True)
     parser.add_argument("--out", required=True)
-    parser.add_argument("--title", default="", help="Título do relatório")
     args = parser.parse_args()
 
     try:
@@ -110,7 +105,7 @@ def main():
         cursor = conn.cursor()
         cursor.execute(args.sql)
         
-        export_markdown(cursor, args.out, sql_query=args.sql, title=args.title)
+        export_markdown(cursor, args.out, sql_query=args.sql)
         
         conn.close()
         sys.exit(0)

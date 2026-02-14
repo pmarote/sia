@@ -52,7 +52,43 @@ for %%f in (*._pth) do (
       "$txt=$txt.Replace('# Uncomment to run site.main() automatically`r`n#import site', '# Uncomment to run site.main() automatically`r`nimport site'); " ^
       "Set-Content $f $txt -NoNewline"
 )
-cd ..
+
+cd ..\..
+call usr\init_env.bat
+if %errorlevel% neq 0 (
+    echo #ERRO# Nao consegui acessar usr\init_env.bat
+    pause
+    exit /b
+)
+cd usr
+
+REM --- RESUMO TÉCNICO INSERIDO AQUI ---
+echo.
+echo -------------------------------------------------------------------
+echo NOTA TECNICA SOBRE O PYTHON EMBEDDED E O ARQUIVO ._pth
+echo -------------------------------------------------------------------
+echo Em distribuicoes Python Embedded (portatil) no Windows, o arquivo
+echo pythonXY._pth ativa um modo de path controlado e isolado.
+echo.
+echo O que isso significa na pratica:
+echo 1. Variaveis externas como *PYTHONPATH* sao sumariamente *ignoradas*.
+echo 2. O sys.path e definido *exclusivamente* pelas linhas do ._pth.
+echo.
+echo Este script injetou o caminho '../../app' dentro do ._pth.
+echo Isso injeta nossa pasta raiz/app no sys.path, permitindo que os
+echo modulos do projeto sejam importados de qualquer lugar via terminal
+echo com comandos como: python -m utils.info
+echo -------------------------------------------------------------------
+echo Rotas de Importacao (sys.path), gerados com %USR_DIR%\python\python.exe -c "import sys; print(sys.path)":
+%USR_DIR%\python\python.exe -c "import sys; print(sys.path)"
+echo Confira acima se estao corretas as 4 rotas:
+echo  usr\pythonxxx.zip
+echo  usr\python
+echo  usr\python\Lib
+echo  app
+echo Mais pra frente, apos instalar PIP, havera tambem mais uma rota sys.path:
+echo  usr\python\Lib\site-packages
+echo -------------------------------------------------------------------
 
 REM 4. Baixar get-pip.py
 echo.
@@ -64,22 +100,22 @@ if not exist "get-pip.py" (
 REM 5. Instalar PIP
 echo.
 echo Instalando PIP (isso pode demorar um pouco)...
-python\python.exe get-pip.py --no-warn-script-location
+%USR_DIR%\python\python.exe get-pip.py --no-warn-script-location
 
 REM 6. Limpeza
 if exist "get-pip.py" del "get-pip.py"
 
 echo.
+echo Instalando agora os pacotes necessarios (uv e openpyxl):
+echo %PATH%
+pip install uv
+uv pip install openpyxl --python "%USR_DIR%\python\python.exe"
+echo.
+
 echo ==========================================
 echo      MICROAPP CONFIGURADO COM SUCESSO!
 echo ==========================================
 echo.
-echo Proximos passos:
-echo pip install uv
-echo uv init
-echo uv pip install openpyxl --python "C:\srcP\sia\usr\python\python.exe"
-echo.
-
-echo Para testar, execute o arquivo terminal.bat que esta na pasta principal (nao esta nesta pasta usr)
+echo Para usar, execute o arquivo sia.bat que esta na pasta principal (nao esta nesta pasta usr)
 echo.
 pause

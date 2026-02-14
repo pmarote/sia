@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SIA: Arquivo Atual",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONHOME": "${workspaceFolder}\\usr\\python",
+                "PYTHONUTF8": "1",
+                "PYTHONDONTWRITEBYTECODE": "1",
+                "PATH": "${workspaceFolder}\\usr\\python;${workspaceFolder}\\usr\\python\\Scripts;${env:PATH}"
+            }
+        },
+        {
+            "name": "SIA: App Main",
+            "type": "python",
+            "request": "launch",
+            "module": "app.main",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONHOME": "${workspaceFolder}\\usr\\python",
+                "PYTHONUTF8": "1",
+                "PYTHONDONTWRITEBYTECODE": "1",
+                "PATH": "${workspaceFolder}\\usr\\python;${workspaceFolder}\\usr\\python\\Scripts;${env:PATH}"
+            }
+        }
+    ]
+}

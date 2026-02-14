@@ -1,5 +1,22 @@
-# 🧠 SIA — Sistema Integrado de Auditoria Fiscal
-> **Versão:** 0.3.7 (02_2026)  
+# Projeto SIA - Sistema Integrado de Auditoria
+
+Bem-vindo ao desenvolvimento do SIA.
+
+## 🤖 Para o Agente (Google Antigravity)
+
+A documentação técnica e as regras de desenvolvimento deste projeto estão organizadas em **Skills**.
+
+**Por favor, inicie lendo a [SKILL MESTRA](.agent/skills/sia.main/SKILL.md):**
+👉 **`.agent/skills/sia.main/SKILL.md`**
+
+Ela irá guiá-lo sobre:
+1. Como o ambiente Python Embedded funciona.
+2. Onde encontrar regras para Relatórios e Utilitários.
+3. A estrutura de pastas obrigatória.
+
+---
+
+> **Versão:** - Consulte [`pyproject.toml`](pyproject.toml) e histórico em [`CHANGELOG.md`](CHANGELOG.md)
 > **Arquitetura:** Python Portátil (Embedded) para Windows
 
 ## 📋 Visão Geral
@@ -10,24 +27,22 @@ Transformar bancos SQLite brutos em relatórios consistentes e auditáveis usand
 
 ---
 
-## 🏗️ Estrutura Técnica (Baseada no Código)
-
-O SIA utiliza uma distribuição **Python Embedded (3.13)** rica em portabilidade, garantindo que o sistema funcione em qualquer ambiente Windows sem instalação prévia.
-
-### 🌳 Arquitetura de Pastas
-- `/app`: Núcleo do sistema (MVC/Processamento).
-- `/usr`: Binários do Python e ambiente isolado (não versionado).
-- `terminal.bat`: Ponto de entrada para operações manuais e diagnóstico.
-- `SKILL.md`: Documentação de padrões de desenvolvimento para agentes de IA e desenvolvedores.
-
 ### ⚙️ Regras de Execução e Ambiente
+O SIA utiliza uma distribuição **Python Embedded (3.13)** rica em portabilidade, garantindo que o sistema funcione em qualquer ambiente Windows sem instalação prévia.
 O sistema ignora o `PYTHONPATH` global para evitar conflitos. A raiz de importação é a pasta `/app`, configurada via arquivo `._pth`.
 
-**Comando Padrão:**
+**Abrir o terminal.bat. Após, o comando padrão é:**
 ```powershell
-usr\python\python.exe -m <subpasta>.<modulo>
+python -m <subpasta>.<modulo>
 ```
-*Exemplo: `usr\python\python.exe -m utils.info`*
+ou
+```powershell
+sia <subpasta>.<modulo>
+```
+
+*Exemplos:*
+*`sia utils.info`*
+*`sia utils.list_tools --root app`*
 
 ---
 
@@ -42,49 +57,3 @@ usr\python\python.exe -m <subpasta>.<modulo>
 | **Pipelines** | Encadeamento de tarefas de auditoria para execução sequencial. |
 | **Gestão de Auditoria** | Cookbooks por contribuinte e complementos vinculados a seções de relatórios. |
 
----
-
-## 🛠️ Como Usar: Reporter (`app.reporter`)
-
-O módulo `reporter` é o coração da extração de dados. Ele permite executar consultas SQL e salvar os resultados em diferentes formatos.
-
-### ⌨️ Modo CLI (Linha de Comando)
-Ideal para consultas rápidas e diretas:
-```powershell
-usr\python\python.exe -m reporter --db banco.sqlite --sql "SELECT * FROM auditoria" --format excel --out relatorio.xlsx
-```
-
-### 📄 Modo JSON (Configuração Especializada)
-Ideal para tarefas complexas, permitindo anexar múltiplos bancos (ATTACH):
-```powershell
-usr\python\python.exe -m reporter --json config.json
-```
-
-**Exemplo de `config.json`:**
-```json
-{
-  "db": "database/principal.sqlite",
-  "out": "out/resultado.md",
-  "format": "markdown",
-  "sql": "SELECT p.nome, a.valor FROM principal.usuarios p JOIN extra.auditoria a ON p.id = a.user_id",
-  "attach": [
-    { "path": "database/extra_data.sqlite", "alias": "extra" }
-  ]
-}
-```
-
----
-
-## 🛠️ Ferramentas Utilitárias
-*   **Dump Code (`app/utils/dump_code.py`):** Gera um arquivo Markdown consolidado com todo o código fonte (respeitando regras de exclusão de pastas como `usr/` e `.git/`). Ideal para fornecer contexto a sistemas de IA.
-*   **Info Python (`app/utils/info.py`):** Ferramenta de diagnóstico para validar o estado do ambiente embedded, caminhos de importação e conectividade.
-
----
-
-## 📐 Padrões de Projeto
-*   **Type Hinting:** Obrigatório em todas as assinaturas (Python 3.13).
-*   **Arquitetura Limpa:** Separação entre lógica de auditoria (SQL/Cookbooks) e motores de geração de relatórios.
-*   **Portabilidade:** Uso estrito de caminhos relativos para garantir execução a partir de pendrives ou redes compartilhadas.
-
----
-*Documentação gerada automaticamente baseada na estrutura do projeto e diretrizes de negócio.*
