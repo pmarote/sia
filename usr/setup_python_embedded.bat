@@ -38,7 +38,7 @@ if not exist "python\python.exe" (
 
 REM 3. Configurar o arquivo ._pth (Habilitar import site, incluir Lib e incluir ..\..\app)
 echo.
-echo Configurando o arquivo ._pth (Habilitar import site e incluir Lib + ..\..\app)...
+echo Configurando o arquivo ._pth (Habilitar import site e incluir Lib + ..\..\.)...
 
 cd python
 for %%f in (*._pth) do (
@@ -47,7 +47,7 @@ for %%f in (*._pth) do (
     powershell -NoProfile -ExecutionPolicy Bypass -Command ^
       "$f='%%f'; $txt=Get-Content $f -Raw; " ^
       "$txt=$txt.Replace(\".`r`n\", \".`r`nLib`r`n\"); " ^
-      "$txt=$txt.Replace(\"Lib`r`n`r`n\", \"Lib`r`n../../app`r`n`r`n\"); " ^
+      "$txt=$txt.Replace(\"Lib`r`n`r`n\", \"Lib`r`n../../.`r`n`r`n\"); " ^
       "$txt=$txt.Replace('#import site','import site'); " ^
       "$txt=$txt.Replace('# Uncomment to run site.main() automatically`r`n#import site', '# Uncomment to run site.main() automatically`r`nimport site'); " ^
       "Set-Content $f $txt -NoNewline"
@@ -74,20 +74,20 @@ echo O que isso significa na pratica:
 echo 1. Variaveis externas como *PYTHONPATH* sao sumariamente *ignoradas*.
 echo 2. O sys.path e definido *exclusivamente* pelas linhas do ._pth.
 echo.
-echo Este script injetou o caminho '../../app' dentro do ._pth.
-echo Isso injeta nossa pasta raiz/app no sys.path, permitindo que os
+echo Este script injetou o caminho '../../.' dentro do ._pth.
+echo Isso injeta nossa pasta raiz %SIA_ROOT_DIR% no sys.path, permitindo que os
 echo modulos do projeto sejam importados de qualquer lugar via terminal
-echo com comandos como: python -m utils.info
+echo com comandos como: python -m sia.utils.info
 echo -------------------------------------------------------------------
-echo Rotas de Importacao (sys.path), gerados com %USR_DIR%\python\python.exe -c "import sys; print(sys.path)":
-%USR_DIR%\python\python.exe -c "import sys; print(sys.path)"
+echo Rotas de Importacao (sys.path), gerados com %SIA_USR_DIR%\python\python.exe -c "import sys; print(sys.path)":
+%SIA_USR_DIR%\python\python.exe -c "import sys; print(sys.path)"
 echo Confira acima se estao corretas as 4 rotas:
-echo  usr\pythonxxx.zip
-echo  usr\python
-echo  usr\python\Lib
-echo  app
+echo  %SIA_ROOT_DIR%\usr\pythonxxx.zip
+echo  %SIA_ROOT_DIR%\usr\python
+echo  %SIA_ROOT_DIR%\usr\python\Lib
+echo  %SIA_ROOT_DIR%
 echo Mais pra frente, apos instalar PIP, havera tambem mais uma rota sys.path:
-echo  usr\python\Lib\site-packages
+echo  %SIA_ROOT_DIR%\usr\python\Lib\site-packages
 echo -------------------------------------------------------------------
 
 REM 4. Baixar get-pip.py
@@ -100,16 +100,15 @@ if not exist "get-pip.py" (
 REM 5. Instalar PIP
 echo.
 echo Instalando PIP (isso pode demorar um pouco)...
-%USR_DIR%\python\python.exe get-pip.py --no-warn-script-location
+%SIA_USR_DIR%\python\python.exe get-pip.py --no-warn-script-location
 
 REM 6. Limpeza
 if exist "get-pip.py" del "get-pip.py"
 
 echo.
 echo Instalando agora os pacotes necessarios (uv e openpyxl):
-echo %PATH%
 pip install uv
-uv pip install openpyxl --python "%USR_DIR%\python\python.exe"
+uv pip install openpyxl --python "%SIA_USR_DIR%\python\python.exe"
 echo.
 
 echo ==========================================

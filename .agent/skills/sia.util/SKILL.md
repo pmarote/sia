@@ -5,43 +5,50 @@ description: Ferramentas de diagnóstico, introspecção e geração de contexto
 
 # SIA Utilities & Diagnostics
 
-O pacote `app.utils` contém ferramentas essenciais para manutenção, debug e documentação automática do sistema. Estas ferramentas são projetadas para serem robustas e funcionar mesmo quando o restante do sistema (banco de dados, relatórios) apresentar falhas.
+O pacote `sia.utils` contém ferramentas essenciais para manutenção, debug e documentação automática do sistema. Estas ferramentas são projetadas para serem robustas e funcionar mesmo quando o restante do sistema (banco de dados, relatórios) apresentar falhas.
 
 ## 1. Ferramentas Disponíveis
 
 ### A. Diagnóstico de Ambiente (`info.py`)
-Valida o estado crítico do Python Embedded. Use-o quando houver erros de `ModuleNotFoundError` ou dúvidas sobre qual interpretador está rodando.
 
-* **Comando:** `python -m app.utils.info`
+Valida o estado crítico do Python Embedded e a saúde da infraestrutura baseada no módulo `core`.
+
+* **Comando:** `python -m sia.utils.info`
 * **O que ele faz:**
-    * Exibe `sys.executable` e `sys.path`.
-    * Lê e exibe o conteúdo do arquivo de configuração `._pth`.
-    * Verifica se as pastas críticas (`app`, `usr`) estão visíveis.
-
-> **Nota Técnica (Embedded):** O Python Embedded no Windows usa um arquivo `pythonXY._pth` para isolar o ambiente. Ele **ignora** variáveis de sistema como `PYTHONPATH`. O `info.py` confirma se o arquivo `._pth` está configurado corretamente para incluir `../../app`.
+* Exibe `sys.executable`, `sys.path` e o IP local da rede.
+* Verifica a disponibilidade e versão do gerenciador de pacotes **`uv`**.
+* Valida caminhos críticos (`var`, `logs`, `temp`) e a configuração do banco de dados via `sia.core`.
+* Analisa o arquivo `._pth` para confirmar as injeções de path (`sia`) e o `import site`.
 
 ### B. Contexto para IA (`dump_code.py`)
-Gera um arquivo Markdown consolidado contendo todo o código-fonte do projeto. Essencial para alimentar LLMs com o contexto atualizado do sistema.
+
+Gera um arquivo Markdown consolidado contendo o código-fonte e estrutura do projeto para alimentar LLMs.
 
 * **Comando:**
-    ```powershell
-    python -m app.utils.dump_code --root . --dst res/docs/context_dump.md
-    ```
+```powershell
+python -m sia.utils.dump_code --root . --context_dump.md
+
+```
+
 * **Features:**
-    * Respeita automaticamente exclusões de pastas binárias (`usr/`, `.git/`, `__pycache__`).
-    * Formata o código em blocos Markdown com o caminho do arquivo no cabeçalho.
+* **Exclusão Inteligente:** Ignora automaticamente pastas de sistema, git, IDEs e builds (`.git`, `usr`, `.vscode`, `dist`, etc.).
+* **Filtro de Extensões:** Coleta arquivos `.py`, `.md`, `.bat`, `.json` e `.sql`.
+* **Árvore de Diretórios:** Inclui uma representação visual da estrutura de pastas no topo do arquivo.
 
 ### C. Catálogo de Ferramentas (`list_tools.py`)
-Ferramenta de introspecção que varre o pacote `app.utils` (ou outros) e lista os scripts disponíveis, extraindo suas docstrings e argumentos de CLI.
 
-* **Comando:** `python -m app.utils.list_tools --root app/utils`
-* **Saída:** Exibe um "Catálogo Inteligente" com descrição e modo de uso de cada script.
+Varre um diretório para listar scripts, diferenciando ferramentas de CLI de scripts comuns.
+
+* **Comando:** `python -m sia.utils.list_tools --root %SIA_ROOT_DIR%/sia/utils`
+* **Saída:**
+* Identifica **🛠️ TOOL** (usa `argparse`) ou **📄 SCRIPT** (usa docstrings).
+* Para ferramentas CLI, executa automaticamente o parâmetro `-h` para extrair as instruções de uso.
 
 ## 2. Padrões de Desenvolvimento (Utils)
 
-Ao criar novos utilitários em `app.utils`, siga estritamente:
+Ao criar novos utilitários em `sia.utils`, siga estritamente:
 
-1.  **Independência:** Utilitários não devem depender de módulos pesados do sistema (como `app.reporter` ou `pandas`) a menos que estritamente necessário. Eles devem carregar rápido.
+1.  **Independência:** Utilitários não devem depender de módulos pesados do sistema (como `sia.reporter` ou `pandas`) a menos que estritamente necessário. Eles devem carregar rápido.
 2.  **Type Hinting:** Obrigatório em todas as assinaturas (Python 3.13+).
 3.  **Portabilidade (Caminhos Relativos):**
     * Como o sistema roda em pendrives, **nunca** use caminhos absolutos.
@@ -51,6 +58,6 @@ Ao criar novos utilitários em `app.utils`, siga estritamente:
 
 Se o Agente ou o Usuário suspeitar de problemas no ambiente:
 
-1.  Execute: `python -m app.utils.info`
+1.  Execute: `python -m sia.utils.info`
 2.  Verifique se o caminho do projeto aparece na lista `sys.path`.
 3.  Se não aparecer, o problema está no arquivo `usr/python/python*._pth`.

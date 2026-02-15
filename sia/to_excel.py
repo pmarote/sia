@@ -10,7 +10,7 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment
 from pathlib import Path
 
-def export_excel(cursor, out_path):
+def export_excel(cursor: sqlite3.Cursor, out_path: str) -> None:
     """
     Gera o Excel iterando diretamente sobre o cursor (Lazy Load).
     """

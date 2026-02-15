@@ -25,7 +25,7 @@ wheels = [
 
 [[package]]
 name = "sia"
-version = "0.3.7"
+version = "0.3.9"
 source = { virtual = "." }
 dependencies = [
     { name = "openpyxl" },

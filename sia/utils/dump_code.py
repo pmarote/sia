@@ -1,0 +1,152 @@
+"""
+[MICROAPP] DUMP CODE (v0.3.9)
+Gera um consolidado Markdown de todo o código-fonte para contexto de IA.
+Respeita o novo namespace 'sia' e as regras de exclusão de binários.
+"""
+import argparse
+import sys
+from pathlib import Path
+from datetime import datetime
+from typing import List
+
+# --- CONFIGURAÇÃO (O Contrato) ---
+# Ignorar pastas de sistema, git e a pasta do Python Embedded (usr)
+IGNORE_DIRS = {".git", "__pycache__", ".venv", "venv", ".idea", ".vscode", "usr", "build", "dist", "var"}
+
+# Extensões que queremos ler para dar contexto à IA
+TARGET_EXTENSIONS = {".py", ".md", ".bat", ".json", ".sql", ".toml"}
+
+def build_tree(root: Path) -> str:
+    """
+    Gera uma representação visual da árvore de diretórios.
+    """
+    lines: List[str] = []
+
+    def walk(dir_path: Path, prefix: str = "") -> None:
+        try:
+            # Filtra e ordena
+            entries = sorted([
+                e for e in dir_path.iterdir() 
+                if e.name not in IGNORE_DIRS
+            ], key=lambda x: (x.is_file(), x.name))
+        except PermissionError:
+            lines.append(f"{prefix}├── [ERRO DE PERMISSÃO: {dir_path.name}]")
+            return
+
+        for i, entry in enumerate(entries):
+            is_last = (i == len(entries) - 1)
+            connector = "└── " if is_last else "├── "
+            
+            lines.append(f"{prefix}{connector}{entry.name}")
+
+            if entry.is_dir():
+                extension = "    " if is_last else "│   "
+                walk(entry, prefix + extension)
+
+    lines.append(root.name)
+    walk(root)
+    return "\n".join(lines)
+
+def collect_files(root: Path) -> List[Path]:
+    """
+    Coleta arquivos das extensões alvo, respeitando o novo namespace.
+    """
+    collected = []
+    # rglob('*') pega tudo, depois filtramos manualmente para respeitar o IGNORE_DIRS
+    # Isso é mais seguro que rglob('*.py') pois evita entrar em 'usr'
+    for path in root.rglob('*'):
+        if path.is_file() and path.suffix.lower() in TARGET_EXTENSIONS:
+            if not any(part in IGNORE_DIRS for part in path.parts):
+                collected.append(path)
+                
+    return sorted(collected)
+
+def make_markdown(root: Path) -> str:
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    parts = []
+    
+    # Cabeçalho
+    parts.append(f"# 🧠 CONTEXTO DO PROJETO: {root.name} (v0.3.9)")
+    parts.append(f"> Gerado automaticamente em: {now}")
+    parts.append("")
+    
+    # 1. Estrutura Visual
+    parts.append("## 1. 🌳 Estrutura de Diretórios")
+    parts.append("```text")
+    parts.append(build_tree(root))
+    parts.append("```")
+    parts.append("")
+
+    # 2. Conteúdo dos Arquivos
+    files = collect_files(root)
+    parts.append(f"## 2. 📦 Conteúdo dos Arquivos ({len(files)} arquivos)")
+    parts.append("")
+
+    for file_path in files:
+        rel_path = file_path.relative_to(root).as_posix()
+        ext = file_path.suffix.lower().replace(".", "")
+        
+        # Mapeamento para syntax highlighting do markdown
+        lang_map = {
+            "py": "python", "md": "markdown", "bat": "batch",
+            "json": "json", "sql": "sql", "toml": "toml"
+        }
+        lang = lang_map.get(ext, "text")
+
+        parts.append(f"### 📄 `{rel_path}`")
+        parts.append(f"```{lang}")
+        
+        try:
+            # Tenta UTF-8 (padrão SIA), fallback para latin-1
+            try:
+                content = file_path.read_text(encoding="utf-8")
+            except UnicodeDecodeError:
+                content = file_path.read_text(encoding="latin-1")
+            parts.append(content.strip())
+        except Exception as e:
+            parts.append(f"[ERRO AO LER ARQUIVO: {e}]")
+            
+        parts.append("```")
+        parts.append("---")
+        parts.append("")
+
+    return "\n".join(parts)
+
+def main() -> None:
+    # 1. Configuração do CLI (Interface do Contrato)
+    parser = argparse.ArgumentParser(
+        description="[Microapp Utilitário] Gera dump de código v0.3.9."
+    )
+    parser.add_argument("--root", required=True, help="Pasta raiz do projeto")
+    parser.add_argument("--dst", required=True, help="Caminho do Markdown de saída")
+    
+    args = parser.parse_args()
+    root_path = Path(args.root).resolve()
+    dst_path = Path(args.dst).resolve()
+
+    print(f"[INFO] Iniciando dump de: {root_path}")
+    print(f"[INFO] Destino: {dst_path}")
+
+    # 2. Validação
+    if not root_path.exists():
+        print(f"[ERRO] Diretório raiz não encontrado: {root_path}")
+        sys.exit(1)
+    # Garantir que o diretório de destino existe (ex: res/docs)
+    dst_path.parent.mkdir(parents=True, exist_ok=True)
+
+    try:
+        # 3. Processamento (Core)
+        full_markdown = make_markdown(root_path)
+        
+        # 4. Saída (Persistência)
+        dst_path.write_text(full_markdown, encoding="utf-8")
+        
+        print(f"[SUCESSO] Arquivo gerado com sucesso. Tamanho: {len(full_markdown)/1024:.2f} KB")
+        sys.exit(0) # Código de sucesso para o Maestro
+
+    except Exception as e:
+        print(f"[FATAL] Ocorreu um erro não tratado: {e}")
+        sys.exit(1) # Código de erro para o Maestro
+
+if __name__ == "__main__":
+    main()

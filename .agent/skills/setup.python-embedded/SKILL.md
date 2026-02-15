@@ -35,7 +35,7 @@ Para instalar uma nova biblioteca (ex: pandas), siga estritamente esta ordem:
 
 ## 3. Execução de Scripts
 Sempre execute scripts assumindo que o terminal já tem as variáveis de ambiente carregadas (graças ao VS Code).
-- **Correto:** `python -m app.main`
+- **Correto:** `python -m sia.main`
 - **Correto:** `python script.py`
 - **Fallback (se der erro de comando):** `usr/python/python.exe -m app.main`
 

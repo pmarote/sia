@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 # --- CORE E INFRAESTRUTURA --- # consi/derando sys.path[] esteja certinho incluindo a pasta app, como por ex. `C:\srcP\sia\app`
-from core import env  # O ambiente já entra validado aqui!
+from sia.core import env  # O ambiente já entra validado aqui!
 
 # ---------------------------------------------------------------------
 # Helpers de Diagnóstico

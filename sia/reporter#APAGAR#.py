@@ -9,9 +9,9 @@ import sqlite3
 from pathlib import Path
 
 # --- CORE E INFRAESTRUTURA --- # considerando sys.path[] esteja certinho incluindo a pasta app, como por ex. `C:\srcP\sia\app`
-from core import env  # O ambiente já entra validado aqui!
-import to_excel
-import to_markdown
+from sia.core import env  # O ambiente já entra validado aqui!
+import sia.to_excel
+import sia.to_markdown
 
 def get_connection(db_path, attachments=None):
     """Conecta no SQLite e realiza os ATTACHs solicitados."""

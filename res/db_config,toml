@@ -2,7 +2,7 @@
 # Configuração persistente de conexão com os bancos de dados - Ver explicacao no arquivo modelo em res/db_config.toml
 
 # Banco principal (main)    ##ATENÇÃO - Não coloque barra invertida, coloque no path barra estilo linux##
-db = "data/entrada/principal.sqlite"
+db = "data/test.db3test"
 
 # Bancos auxiliares para ATTACH (opcional)    ##ATENÇÃO - Não coloque barra invertida, coloque no path barra estilo linux##
 [[attach]]

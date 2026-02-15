@@ -10,11 +10,11 @@ if not exist "%~dp0python\python.exe" (
 
 REM --- Configuração de Caminhos ---
 REM %~dp0 é o caminho onde este script está (pasta usr\)
-set "USR_DIR=%~dp0"
+set "SIA_USR_DIR=%~dp0"
 REM Remove a barra invertida final para evitar duplicações em alguns contextos
-set "USR_DIR=%USR_DIR:~0,-1%"
+set "SIA_USR_DIR=%SIA_USR_DIR:~0,-1%"
 
-set "PYTHONHOME=%USR_DIR%\python"
+set "PYTHONHOME=%SIA_USR_DIR%\python"
 
 REM [CRÍTICO] Encoding UTF-8 e Bytecode
 set "PYTHONUTF8=1"
@@ -24,4 +24,6 @@ REM Adiciona Python ao PATH da sessão atual
 set "PATH=%PYTHONHOME%;%PYTHONHOME%\Scripts;%PATH%"
 
 REM Feedback silencioso de sucesso (opcional, útil para debug)
-REM echo Environment loaded from %USR_DIR%
+REM echo Environment loaded from %SIA_USR_DIR%
+
+for %%I in ("%SIA_USR_DIR%\..") do set "SIA_ROOT_DIR=%%~fI"

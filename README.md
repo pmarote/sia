@@ -33,16 +33,16 @@ O sistema ignora o `PYTHONPATH` global para evitar conflitos. A raiz de importa�
 
 **Abrir o terminal.bat. Após, o comando padrão é:**
 ```powershell
-python -m <subpasta>.<modulo>
+python -m sia.<subpasta>.<modulo>
 ```
 ou
 ```powershell
-sia <subpasta>.<modulo>
+s <subpasta>.<modulo>
 ```
 
 *Exemplos:*
-*`sia utils.info`*
-*`sia utils.list_tools --root app`*
+*`sia sia.utils.info`*
+*`sia sia.utils.list_tools --root app`*
 
 ---
 

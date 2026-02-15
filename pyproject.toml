@@ -1,6 +1,6 @@
 [project]
 name = "sia"
-version = "0.3.8"
+version = "0.3.9"
 description = "Sistema modular de auditoria fiscal em Python para análise de SQLite e relatórios automatizados."
 readme = "README.md"
 requires-python = ">=3.13"

@@ -1,6 +1,0 @@
-{
-  "db": "./teste.db3",
-  "out": "./rel_teste.txt",
-  "format": "tsv",
-  "sql": "SELECT * FROM madf;"
-}
