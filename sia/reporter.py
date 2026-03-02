@@ -1,5 +1,5 @@
 """
-[MICROAPP] REPORTER (v0.3.9)
+[MICROAPP] REPORTER (v0.4.0)
 Gera relatórios (Excel, Markdown, TSV) a partir de SQL.
 Utiliza o namespace 'sia' e configurações centralizadas via TOML.
 """
@@ -44,7 +44,7 @@ def get_connection(db_path: str, attachments: Optional[List[dict[str, str]]] = N
         sys.exit(1)
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Microapp Reporter v0.3.9: SQL -> Arquivo")
+    parser = argparse.ArgumentParser(description="Microapp Reporter v0.4.0: SQL -> Arquivo")
     
     parser.add_argument("--out", required=True, help="Arquivo de saída (.txt, .xlsx, .md)")
     parser.add_argument("--sql", required=True, help="Caminho para arquivo .sql ou query SQL direta")
@@ -64,13 +64,15 @@ def main() -> None:
         sys.exit(1)
 
     # 2. Resolução do SQL
+    sql_file_name = ""
     if args.sql.lower().endswith('.sql'):
         sql_file = resolve_path(args.sql)
         if not sql_file.exists():
             print(f"[ERRO CRÍTICO] Arquivo SQL não encontrado: {sql_file}")
             sys.exit(1)
         sql_query = sql_file.read_text(encoding='utf-8')
-        print(f"[REPORTER] 📄 SQL carregado: {sql_file.name}")
+        sql_file_name = sql_file.name
+        print(f"[REPORTER] 📄 SQL carregado: {sql_file_name}")
     else:
         sql_query = args.sql
         print("[REPORTER] 💬 SQL recebido via string.")
@@ -87,7 +89,7 @@ def main() -> None:
 
     # 4. Execução
     print(f"[REPORTER] 🔌 Conectando em: {db_path_abs}")
-    conn = get_connection(db_path_abs, attachments)
+    conn = get_connection(str(db_path_abs), attachments)
     
     try:
         cursor = conn.cursor()
@@ -106,9 +108,10 @@ def main() -> None:
                 cursor, 
                 str(out_path_abs), 
                 sql_query=sql_query, 
-                db_path=db_path_abs, 
+                db_path=str(db_path_abs), 
                 attachments=str(attachments),
-                title=args.title
+                title=args.title,
+                sql_file=sql_file_name
             )
             
         elif fmt == "tsv":

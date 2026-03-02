@@ -1,9 +1,11 @@
 """
-[SUB-ROTINA] MARKDOWN EXPORTER (v0.3.9)
+[SUB-ROTINA] MARKDOWN EXPORTER (v0.4.0)
 Gera tabelas MD ricas a partir de um cursor SQLite.
 Otimizado para memória: Não carrega tudo na RAM para alinhar pipes.
 """
+import argparse
 import sqlite3
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Optional
@@ -25,9 +27,9 @@ def export_markdown(
     sql_query: str = "", 
     db_path: str = "", 
     attachments: str = "", 
-    title: Optional[str] = None
+    title: Optional[str] = None,
+    sql_file: str = ""  # <--- NOVO PARÂMETRO
 ) -> None:
-    """Gera o arquivo Markdown via streaming de cursor."""
     """
     Gera Markdown streamando o cursor.
     Nota: O arquivo .md bruto não terá colunas alinhadas visualmente (espaços),
@@ -40,15 +42,28 @@ def export_markdown(
         if title:
             f.write(f"## {title}\n\n")
 
+        # --- BLOCO METADADOS & SQL (ESCONDIDO NO TOPO) ---
+        f.write('<details>\n  <summary><span style="font-size:0.9em; color:gray; cursor:pointer">🔍 Detalhes da Execução e Query SQL</span></summary>\n\n')
+        
+        data_hora = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        f.write(f"> 📅 **Gerado em:** `{data_hora}`\n")
+        
+        if db_path:
+            f.write(f"> 🗄️ **Base Principal:** `{db_path}`\n")
+        if attachments:
+            f.write(f"> 🔗 **Anexos:** `{attachments}`\n")
+        if sql_file:
+            f.write(f"> 📄 **Arquivo SQL:** `{sql_file}`\n")
+            
         if sql_query:
-            f.write('<details>\n  <summary><span style="font-size:0.9em; color:gray; cursor:pointer">🔍 Ver Query SQL Original</summary>\n\n')
-            f.write(f"```sql\n{sql_query.strip()}\n```\n</details>\n\n")
+            f.write(f"\n```sql\n{sql_query.strip()}\n```\n")
+            
+        f.write("</details>\n\n")
         
         if not headers:
             f.write("> ⚠️ A consulta não retornou colunas.\n")
             return
 
-        # Header e Separador (Alinhamento)
         # --- CONSTRUÇÃO DA TABELA ---
         # 1. Header Row
         f.write("| " + " | ".join(headers) + " |\n")
@@ -72,9 +87,8 @@ def export_markdown(
             f.write("| " + " | ".join(fmt_br(c) for c in row) + " |\n")
             row_count += 1
 
-        # --- RICH FOOTER ---
-        data_hora = datetime.now().strftime("%d/%m/%Y %H:%M")
-        f.write(f"> 📅 **Gerado em:** {data_hora} &nbsp;|&nbsp; 🗄️ **Base:** `{db_path}` &nbsp;|&nbsp; 🗄🗄️ **Attachments:** `{attachments}` &nbsp;|&nbsp; 📊 **Linhas:** {row_count}\n\n")
+        # --- RODAPÉ MINIMALISTA ---
+        f.write(f"\n> 📊 **Total de Registros:** {row_count}\n\n")
 
     print(f"[MARKDOWN] 💾 Salvo: {Path(out_path).name}")
 
@@ -89,11 +103,29 @@ def main():
     args = parser.parse_args()
 
     try:
+        # Se --sql apontar para um arquivo existente, extrai o nome
+        sql_file_name = ""
+        sql_content = args.sql
+        sql_path = Path(args.sql)
+        
+        if sql_path.exists() and sql_path.is_file():
+            sql_file_name = sql_path.name
+            sql_content = sql_path.read_text(encoding="utf-8")
+
         conn = sqlite3.connect(args.db)
         cursor = conn.cursor()
-        cursor.execute(args.sql)
         
-        export_markdown(cursor, args.out, sql_query=args.sql, title=args.title)
+        # Executa o conteúdo (seja arquivo lido ou string direta)
+        cursor.execute(sql_content)
+        
+        export_markdown(
+            cursor=cursor, 
+            out_path=args.out, 
+            sql_query=sql_content, 
+            db_path=args.db,
+            title=args.title,
+            sql_file=sql_file_name
+        )
         
         conn.close()
         sys.exit(0)

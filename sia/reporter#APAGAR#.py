@@ -1,19 +1,29 @@
 """
-[MICROAPP] REPORTER
+[MICROAPP] REPORTER (v0.3.9)
 Gera relatórios (Excel, Markdown, TSV) a partir de SQL.
-Entrada: Argumentos via CLI e Configuração persistente via TOML.
+Utiliza o namespace 'sia' e configurações centralizadas via TOML.
 """
 import sys
 import argparse
 import sqlite3
 from pathlib import Path
+from typing import Any, List, Optional
 
-# --- CORE E INFRAESTRUTURA --- # considerando sys.path[] esteja certinho incluindo a pasta app, como por ex. `C:\srcP\sia\app`
-from sia.core import env  # O ambiente já entra validado aqui!
-import sia.to_excel
-import sia.to_markdown
+# --- CORE E INFRAESTRUTURA ---
+from sia.core import env 
+import sia.to_excel as to_excel
+import sia.to_markdown as to_markdown
 
-def get_connection(db_path, attachments=None):
+def resolve_path(path_str: str) -> Path:
+    """Resolve caminho absoluto ou relativo ao diretório atual."""
+    """Se o argumento vier com caminho absoluto → usa ele."""
+    """Se vier relativo → resolve contra Path.cwd()."""
+    """Isso é padrão profissional para CLI tools."""
+    p = Path(path_str)
+    return p if p.is_absolute() else (Path.cwd() / p)
+
+
+def get_connection(db_path: str, attachments: Optional[List[dict[str, str]]] = None) -> sqlite3.Connection:
     """Conecta no SQLite e realiza os ATTACHs solicitados."""
     try:
         conn = sqlite3.connect(db_path)
@@ -23,9 +33,8 @@ def get_connection(db_path, attachments=None):
                 path = item.get('path')
                 alias = item.get('alias')
                 if path and alias:
-                    # Cuidado: Parametrização não funciona em ATTACH, 
-                    # mas como é uso interno/controlado, f-string é aceitável.
-                    clean_path = str((env.project_root / path).resolve())
+                    p = Path(path)
+                    clean_path = str(p if p.is_absolute() else (Path.cwd() / p).resolve())
                     conn.execute(f"ATTACH DATABASE '{clean_path}' AS {alias}")
                     print(f"[INFO] Attached: {alias} -> {clean_path}")
         
@@ -34,58 +43,47 @@ def get_connection(db_path, attachments=None):
         print(f"[ERRO] Falha na conexão/attach: {e}")
         sys.exit(1)
 
-def main():
-    parser = argparse.ArgumentParser(description="Microapp Reporter: SQL -> Arquivo")
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Microapp Reporter v0.3.9: SQL -> Arquivo")
     
     parser.add_argument("--out", required=True, help="Arquivo de saída (.txt, .xlsx, .md)")
-    parser.add_argument("--sql", required=True, help="Caminho para arquivo .sql ou string contendo a query SQL")
+    parser.add_argument("--sql", required=True, help="Caminho para arquivo .sql ou query SQL direta")
     parser.add_argument("--title", help="Título para o cabeçalho (opcional)")
 
     args = parser.parse_args()
 
-    # 1. Inferência de Formato via Extensão
+    # 1. Inferência de Formato
     out_path = Path(args.out)
     ext = out_path.suffix.lower()
     
-    if ext == '.txt':
-        fmt = 'tsv'
-    elif ext == '.xlsx':
-        fmt = 'excel'
-    elif ext == '.md':
-        fmt = 'markdown'
-    else:
-        print(f"[ERRO CRÍTICO] Extensão de arquivo '{ext}' não suportada para --out.")
-        print("Use apenas: .txt (TSV), .xlsx (Excel) ou .md (Markdown).")
+    format_map = {'.txt': 'tsv', '.xlsx': 'excel', '.md': 'markdown'}
+    fmt = format_map.get(ext)
+
+    if not fmt:
+        print(f"[ERRO CRÍTICO] Extensão '{ext}' não suportada. Use: .txt, .xlsx ou .md")
         sys.exit(1)
 
-    # 2. Resolução do SQL (Arquivo ou String)
+    # 2. Resolução do SQL
     if args.sql.lower().endswith('.sql'):
-        # Procura o arquivo SQL usando a raiz do projeto como base
-        sql_file = env.project_root / args.sql
+        sql_file = resolve_path(args.sql)
         if not sql_file.exists():
             print(f"[ERRO CRÍTICO] Arquivo SQL não encontrado: {sql_file}")
             sys.exit(1)
-        try:
-            with open(sql_file, 'r', encoding='utf-8') as f:
-                sql_query = f.read()
-            print(f"[REPORTER] 📄 SQL carregado do arquivo: {sql_file.name}")
-        except Exception as e:
-            print(f"[ERRO] Falha ao ler arquivo SQL: {e}")
-            sys.exit(1)
+        sql_query = sql_file.read_text(encoding='utf-8')
+        print(f"[REPORTER] 📄 SQL carregado: {sql_file.name}")
     else:
         sql_query = args.sql
-        print("[REPORTER] 💬 SQL recebido via string de comando.")
+        print("[REPORTER] 💬 SQL recebido via string.")
 
-    # 3. Consumo da Configuração Persistente (Via Core)
+    # 3. Configuração via Core (Single Source of Truth)
     db_path_rel = env.db_config.get("db")
     attachments = env.db_config.get("attach", [])
 
     if not db_path_rel:
-        print("[ERRO CRÍTICO] O arquivo db_config.toml deve conter a chave 'db'.")
+        print("[ERRO CRÍTICO] Configuração 'db' ausente no db_config.toml.")
         sys.exit(1)
 
-    # Resolve o caminho do banco principal a partir da raiz do projeto
-    db_path_abs = str((env.project_root / db_path_rel).resolve())
+    db_path_abs = resolve_path(db_path_rel)
 
     # 4. Execução
     print(f"[REPORTER] 🔌 Conectando em: {db_path_abs}")
@@ -96,17 +94,14 @@ def main():
         print("[REPORTER] 🚀 Executando Query...")
         cursor.execute(sql_query)
         
-        # Resolve o caminho de saída a partir da raiz do projeto
-        out_path_abs = env.project_root / out_path
-        print(f"[REPORTER] 💾 Salvando como {fmt.upper()}: {out_path_abs}")
+        # Resolve caminho de saída relativo à raiz
+        out_path_abs = resolve_path(args.out)
         
-        # 5. Roteamento para Exportadores
+        # 5. Roteamento
         if fmt == "excel":
-            # Passamos o cursor diretamente. O exportador vai iterar.
             to_excel.export_excel(cursor, str(out_path_abs))
             
         elif fmt == "markdown":
-            # Markdown precisa saber a query original para botar no <details>
             to_markdown.export_markdown(
                 cursor, 
                 str(out_path_abs), 
@@ -119,42 +114,28 @@ def main():
         elif fmt == "tsv":
             # TSV com tratamento de decimais BR
             with open(out_path_abs, "w", encoding="utf-8") as f:
-                # Headers
                 if cursor.description:
-                    cols = [d[0] for d in cursor.description]
-                    f.write("\t".join(cols) + "\n")
+                    f.write("\t".join(d[0] for d in cursor.description) + "\n")
                 
                 row_count = 0
                 # Rows (um a um, não é para dar readall)
                 for row in cursor:
                     clean_row = []
                     for item in row:
-                        if item is None:
-                            val = ""
-                        elif isinstance(item, float):
-                            # [AJUSTE BR] Troca ponto por vírgula em números reais
-                            val = str(item).replace('.', ',')
-                        else:
-                            # Remove tabs de textos para não quebrar colunas
-                            val = str(item).replace("\t", " ")
-                        
+                        # [AJUSTE BR] Troca ponto por vírgula em números reais
+                        # Remove tabs de textos para não quebrar colunas
+                        if item is None: val = ""
+                        elif isinstance(item, float): val = str(item).replace('.', ',')
+                        else: val = str(item).replace("\t", " ")
                         clean_row.append(val)
-
                     f.write("\t".join(clean_row) + "\n")
                     row_count += 1
             print(f"[REPORTER] 💾 Salvo TSV ({row_count} linhas)")
 
-        print("[SUCESSO] Relatório gerado.")
+        print("[SUCESSO] Relatório gerado em: " + str(out_path))
         conn.close()
-        sys.exit(0)
-
-    except sqlite3.Error as e:
-        print(f"[ERRO SQL] {e}")
-        conn.close()
-        sys.exit(1)
     except Exception as e:
         print(f"[ERRO GERAL] {e}")
-        conn.close()
         sys.exit(1)
 
 if __name__ == "__main__":

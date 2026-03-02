@@ -1,100 +1,83 @@
 """
-[SUB-ROTINA] MARKDOWN EXPORTER
-Gera tabelas MD ricas com SQL embutido.
+[SUB-ROTINA] MARKDOWN EXPORTER (v0.3.9)
+Gera tabelas MD ricas a partir de um cursor SQLite.
 Otimizado para memória: Não carrega tudo na RAM para alinhar pipes.
 """
-import sys
-import argparse
 import sqlite3
 from datetime import datetime
 from pathlib import Path
+from typing import Any, Optional
 
-def fmt_br(val):
-    """Formata valores para string BR com injeção HTML para negativos."""
+def fmt_br(val: Any) -> str:
+    """Formata valores para o padrão brasileiro com suporte a cores HTML para negativos."""
     if val is None: return ""
     if isinstance(val, (float, int)):
         if isinstance(val, float):
             text_val = f"{val:_.2f}".replace('.', ',').replace('_', '.')
         else:
             text_val = str(val)
-        if val < 0:
-            return f'<span style="color:red">{text_val}</span>'
-        return text_val
+        return f'<span style="color:red">{text_val}</span>' if val < 0 else text_val
     return str(val)
 
-def export_markdown(cursor, out_path, sql_query="", db_path="", attachments="", title=""):
+def export_markdown(
+    cursor: sqlite3.Cursor, 
+    out_path: str, 
+    sql_query: str = "", 
+    db_path: str = "", 
+    attachments: str = "", 
+    title: Optional[str] = None
+) -> None:
+    """Gera o arquivo Markdown via streaming de cursor."""
     """
     Gera Markdown streamando o cursor.
     Nota: O arquivo .md bruto não terá colunas alinhadas visualmente (espaços),
     mas o render (HTML/GitHub) ficará perfeito. Isso economiza RAM.
     """
-    if cursor.description:
-        headers = [desc[0] for desc in cursor.description]
-    else:
-        headers = []
-
-    # Tenta pegar a primeira linha para decidir tipos de alinhamento
+    headers = [desc[0] for desc in cursor.description] if cursor.description else []
     first_row = cursor.fetchone()
     
     with open(out_path, "w", encoding="utf-8") as f:
-
-        # --- NOVA LÓGICA DO TÍTULO ---
         if title:
             f.write(f"## {title}\n\n")
 
         if sql_query:
-            f.write("<details>\n")
-            f.write('  <summary><span style="font-size:0.9em; color:gray; cursor:pointer">🔍 Ver Query SQL Original</span></summary>\n\n')
-            f.write("```sql\n")
-            f.write(sql_query.strip() + "\n")
-            f.write("```\n")
-            f.write("</details>\n\n")
+            f.write('<details>\n  <summary><span style="font-size:0.9em; color:gray; cursor:pointer">🔍 Ver Query SQL Original</summary>\n\n')
+            f.write(f"```sql\n{sql_query.strip()}\n```\n</details>\n\n")
         
         if not headers:
             f.write("> ⚠️ A consulta não retornou colunas.\n")
             return
 
+        # Header e Separador (Alinhamento)
         # --- CONSTRUÇÃO DA TABELA ---
         # 1. Header Row
         f.write("| " + " | ".join(headers) + " |\n")
-        
+
         # 2. Separator Row (Alinhamento)
         separators = []
         for i, _ in enumerate(headers):
             # Se tivermos a primeira linha, checamos se é número para alinhar à direita
-            is_numeric = False
-            if first_row and len(first_row) > i:
-                val = first_row[i]
-                is_numeric = isinstance(val, (int, float))
-            
-            if is_numeric:
-                separators.append("---:") # Direita
-            else:
-                separators.append(":---") # Esquerda
-        
+            is_num = isinstance(first_row[i], (int, float)) if first_row else False
+            separators.append("---:" if is_num else ":---")
         f.write("| " + " | ".join(separators) + " |\n")
-        
-        # 3. Write First Row (se existir)
+
+        # 3. Write First Row (se existir)        
         row_count = 0
         if first_row:
-            fmt_row = [fmt_br(c) for c in first_row]
-            f.write("| " + " | ".join(fmt_row) + " |\n")
-            row_count += 1
-            
-        # 4. Write Remaining Rows (Streaming)
-        for row in cursor:
-            fmt_row = [fmt_br(c) for c in row]
-            f.write("| " + " | ".join(fmt_row) + " |\n")
+            f.write("| " + " | ".join(fmt_br(c) for c in first_row) + " |\n")
             row_count += 1
 
-        if row_count == 0:
-            f.write("\n> ⚠️ A consulta não retornou dados.\n")
+        # 4. Write Remaining Rows (Streaming)            
+        for row in cursor:
+            f.write("| " + " | ".join(fmt_br(c) for c in row) + " |\n")
+            row_count += 1
 
         # --- RICH FOOTER ---
         data_hora = datetime.now().strftime("%d/%m/%Y %H:%M")
         f.write(f"> 📅 **Gerado em:** {data_hora} &nbsp;|&nbsp; 🗄️ **Base:** `{db_path}` &nbsp;|&nbsp; 🗄🗄️ **Attachments:** `{attachments}` &nbsp;|&nbsp; 📊 **Linhas:** {row_count}\n\n")
 
-    print(f"[MARKDOWN] 💾 Salvo: {Path(out_path).name} ({row_count} linhas)")
+    print(f"[MARKDOWN] 💾 Salvo: {Path(out_path).name}")
+
 
 # --- MODO STANDALONE ---
 def main():

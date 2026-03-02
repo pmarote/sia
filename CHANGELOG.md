@@ -2,6 +2,18 @@
 
 O formato é livre, focado em registrar decisões de arquitetura e evolução do projeto SIA, e é baseado em [Keep a Changelog](https://keepachangelog.com/en/2.0.0/) e [Semantic Versioning](https://semver.org/spec/v2.0.0.html), sem tantas rígidas restrições.
 
+## [0.4.0] - 2026-03-02
+
+### Added
+- **Motor de Cookbooks (`sia.cookbook_parser`)**: Introdução do mecanismo de renderização de relatórios "Text-First". O parser lê arquivos Markdown (cookbooks), extrai blocos de código SQL, executa-os e os substitui diretamente por tabelas renderizadas no Markdown final.
+- **Gerador de Configuração de Banco (`sia.utils.gen_db_config`)**: Novo utilitário de terminal para gerar automaticamente o `var/db_config.toml`, suportando o banco principal e múltiplos bancos anexados (`--attach`).
+- **Explorador Automático de Dados (`sia.utils.gen_cookbook`)**: Ferramenta que varre a estrutura interna de um banco de dados SQLite desconhecido e gera dinamicamente um "cookbook exploratório" em Markdown contendo os metadados e os selects das primeiras linhas de cada tabela e view.
+- **Automação de Setup de Auditoria (`prep_safic.py`)**: Script autônomo na raiz para orquestrar a inicialização de novas auditorias (copia templates `.db3` de forma segura, gera o TOML e processa o primeiro relatório base).
+
+### Changed
+- **Refatoração Visual do Markdown Exporter (`sia.to_markdown` e `sia.reporter`)**: O `RICH FOOTER` foi otimizado. Todos os metadados analíticos cruciais (data da execução, base principal, anexos ATTACH, nome do arquivo `.sql` temporário e a query original) agora ficam consolidados de forma limpa no topo do relatório, escondidos nativamente sob uma tag `<details>`, mantendo o foco visual puramente nos dados, preservando a otimização de RAM.
+- **Melhoria no Diagnóstico (`sia.utils.info`)**: O script de info do sistema agora possui inteligência para ler, validar e exibir visualmente a árvore de configuração do `var/db_config.toml` (Banco Principal e Anexos), emitindo alertas visuais (🚨) caso haja parâmetros críticos faltando no ambiente.
+
 ## [0.3.9] - 2026-02-15
 - **Padronização de Namespace:** A pasta raiz `/app` foi renomeada para `/sia`. O projeto agora opera como um pacote Python consolidado, permitindo chamadas via `python -m sia.<modulo>` e evitando colisões com bibliotecas globais.
 - **Refatoração do `sia/core.py`:** Atualizada a lógica de detecção de caminhos para suportar o novo namespace. Adicionado suporte ao objeto `AppEnv` para incluir o caminho do pacote (`sia_package`) e a pasta de recursos (`res_dir`).
